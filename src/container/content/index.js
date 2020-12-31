@@ -9,30 +9,26 @@ const Content = () => {
     <section className={contentStyle.content}>
       <section className={contentStyle.projects} id="articles">
         <p className={contentStyle.title}>Articles</p>
-        <Grid container>
+        <Grid container xs>
           <div className={contentStyle.cardZone}>
-            <Grid item lg={6} xs={12}>
-              {articles.map((article, index) => {
-                return (
-                  <Card key={index}>
-                    <div className={contentStyle.details}>
-                      <p className={contentStyle.articleTitle}>
-                        {article.title}
-                      </p>
-                      <p className={contentStyle.projBody}>
-                        {article.previewText}
-                      </p>
-                      <p className={contentStyle.author}>{article.author}</p>
-                      <p className={contentStyle.projLink}>
-                        <a href={article.readMore} target="__blank">
-                          Read more
-                        </a>
-                      </p>
-                    </div>
-                  </Card>
-                )
-              })}
-            </Grid>
+            {articles.map((article, index) => {
+              return (
+                <Card key={index}>
+                  <div className={contentStyle.details}>
+                    <p className={contentStyle.articleTitle}>{article.title}</p>
+                    <p className={contentStyle.projBody}>
+                      {article.previewText}
+                    </p>
+                    <p className={contentStyle.author}>{article.author}</p>
+                    <p className={contentStyle.projLink}>
+                      <a href={article.readMore} target="__blank">
+                        Read more
+                      </a>
+                    </p>
+                  </div>
+                </Card>
+              )
+            })}
           </div>
         </Grid>
       </section>

@@ -22,4 +22,12 @@ export const articles = [
     readMore:
       'https://medium.com/@amarachiazubuike/my-2020-year-in-review-fc088a1d5857',
   },
+  {
+    title: 'Fu*k this Year, I got a Benz',
+    previewText:
+      'Firstly I do love to Thank God for keeping me alive this year, this year has a lot of up and down Before I begin my year review, I’d love to say this; "It does not matter how slowly you go as long as you do not stop"',
+    author: 'Emeka Boris',
+    readMore:
+      'https://emekaboris.medium.com/fu-k-this-year-i-got-a-benz-f0cf68c99536',
+  },
 ]

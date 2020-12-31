@@ -8,9 +8,9 @@
   padding-bottom: 15%;
 }
 .articleTitle {
-  font-size: 20px;
+  font-size: 19px;
   color: rgba(225, 18, 51);
-  width: 220px;
+  width: 250px;
   border-bottom: 2px solid rgba(225, 18, 51);
   padding: 2% 0;
   &:hover {
@@ -22,6 +22,7 @@
   margin: 3% 0;
   padding: 0 2%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .details {
