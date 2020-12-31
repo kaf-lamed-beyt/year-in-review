@@ -13,9 +13,9 @@ const Header = () => {
         </div>
         <div className={headStyle.navLinks}>
           <ul>
-            <Link href="/about">
+            <a href="https://github.com/Caleb335/year-in-review" target="__blank">
               <li>Contribute</li>
-            </Link>
+            </a>
           </ul>
         </div>
       </header>

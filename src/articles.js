@@ -15,7 +15,7 @@ export const articles = [
       'https://unorthodoxdaniel.medium.com/2020-my-year-in-review-277c6fdcd903/',
   },
   {
-    title: '2020: My Year in Review',
+    title: 'My 2020 Year in Review',
     previewText:
       'When a certain prophet proclaimed this year as a year of "liphacapharey", little did I realise the weight those words carried nor the depth at which his eyes foresaw what the year 2020 would carry.',
     author: 'Amarachi Emmanuela Azubuike',

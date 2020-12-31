@@ -10,7 +10,7 @@
 .articleTitle {
   font-size: 20px;
   color: rgba(225, 18, 51);
-  width: 186px;
+  width: 220px;
   border-bottom: 2px solid rgba(225, 18, 51);
   padding: 2% 0;
   &:hover {
@@ -20,22 +20,17 @@
 }
 .cardZone {
   margin: 3% 0;
-  padding: 0 3%;
+  padding: 0 2%;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-}
-.cardImg {
-  width: 100%;
-  height: 250px;
 }
 .details {
   padding: 3% 4%;
   font-size: 17px;
-  height: 88px;
   .projBody {
     height: 80px;
     padding-top: 2%;
+    height: 100px;
   }
   .projLink {
     text-decoration: underline;
@@ -45,7 +40,7 @@
     }
   }
   .author {
-    margin-top: 5%;
+    margin-top: 3%;
   }
 }
 .title {
