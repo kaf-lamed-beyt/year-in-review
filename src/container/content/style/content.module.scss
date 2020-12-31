@@ -1,0 +1,67 @@
+.content {
+  background: ghostwhite;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 3% 9%;
+  padding-bottom: 15%;
+}
+.articleTitle {
+  font-size: 20px;
+  color: rgba(225, 18, 51);
+  width: 165px;
+  border-bottom: 2px solid rgba(225, 18, 51);
+  padding: 2% 0;
+  &:hover {
+    border-bottom: 2px solid rgb(169, 5, 5);
+    transition: border-bottom 0.3s ease-in-out;
+  }
+}
+.cardZone {
+  margin: 3% 0;
+  padding: 0 3%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cardImg {
+  width: 100%;
+  height: 250px;
+}
+.details {
+  padding: 3% 4%;
+  font-size: 17px;
+  .projBody {
+    height: 80px;
+  }
+  .projLink {
+    text-decoration: underline;
+    padding: 1% 0;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+.title {
+  font-size: 25px;
+  color: rgba(225, 18, 51);
+}
+@media only screen and (max-width: 768px) {
+  .details {
+    .title {
+      font-size: 18px;
+    }
+    & .projLink {
+      margin-top: 4%;
+    }
+    & .projBody {
+      font-size: 16px;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .projBody {
+    font-size: 15px !important;
+  }
+}

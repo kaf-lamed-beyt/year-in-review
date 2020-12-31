@@ -1,0 +1,32 @@
+.root {
+  background: rgba(225, 18, 51);
+  height: 100%;
+  padding: 2% 40%;
+  
+  .copyright {
+      margin: 0 -12%;
+      width: 100%;
+      
+    p {
+      color: #fff;
+      font-size: 16px;
+      padding-top: 3%;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .root {
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .copyright {
+    margin: 0 auto;
+    text-align: center;
+
+    p {
+      margin-left: 30%;
+    }
+  }
+}
