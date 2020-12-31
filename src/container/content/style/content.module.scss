@@ -10,7 +10,7 @@
 .articleTitle {
   font-size: 20px;
   color: rgba(225, 18, 51);
-  width: 165px;
+  width: 186px;
   border-bottom: 2px solid rgba(225, 18, 51);
   padding: 2% 0;
   &:hover {
@@ -32,8 +32,10 @@
 .details {
   padding: 3% 4%;
   font-size: 17px;
+  height: 88px;
   .projBody {
     height: 80px;
+    padding-top: 2%;
   }
   .projLink {
     text-decoration: underline;
@@ -41,6 +43,9 @@
     &:hover {
       cursor: pointer;
     }
+  }
+  .author {
+    margin-top: 5%;
   }
 }
 .title {

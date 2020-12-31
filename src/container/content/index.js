@@ -13,13 +13,8 @@ const Content = () => {
           {articles.map((article, index) => {
             return (
               <div className={contentStyle.cardZone}>
-                <Grid item md={3} xs={12}>
+                <Grid item md={4} xs={12}>
                   <Card key={index}>
-                    {/* <img
-                      src={article.img}
-                      className={contentStyle.cardImg}
-                      alt="An image displaying the profile of robots"
-                    /> */}
                     <div className={contentStyle.details}>
                       <p className={contentStyle.articleTitle}>{article.title}</p>
                       <p className={contentStyle.projBody}>{article.previewText}</p>
