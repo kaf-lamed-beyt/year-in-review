@@ -30,4 +30,20 @@ export const articles = [
     readMore:
       'https://emekaboris.medium.com/fu-k-this-year-i-got-a-benz-f0cf68c99536',
   },
+  {
+    title: '2020 In Review',
+    previewText:
+      "I'm thankful to God that I made it to the end of the year 💛 A lot happened this year. Even to me, personally. I never understood what being 'depressed' meant, until I experienced it. But I'm grateful to God that things are getting better.",
+    author: 'Dillion Megida',
+    readMore:
+      'https://dillionmegida.com/p/2020-in-review/',
+  },
+  {
+    title: '2020 In Review: Remarkable progress',
+    previewText:
+      "One way to greatness is discovering and grooming yourself to achieve your goals - starting it small and improving to make it massive. At first I didn't want to come up with this article but on a later thought, I concluded to pen my reflections.",
+    author: 'Adio Mojeed',
+    readMore:
+      'https://codeleaf.hashnode.dev/2020-in-review-remarkable-progress-ckjdevaw90jbglvs14kok1qou',
+  },
 ]

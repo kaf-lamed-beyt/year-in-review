@@ -7,30 +7,28 @@
   padding: 3% 9%;
   padding-bottom: 15%;
 }
+.border {
+  border-bottom: 2px solid rgba(225, 18, 51);
+  width: 120px;
+}
 .articleTitle {
   font-size: 19px;
   color: rgba(225, 18, 51);
-  width: 250px;
-  border-bottom: 2px solid rgba(225, 18, 51);
   padding: 2% 0;
-  &:hover {
-    border-bottom: 2px solid rgb(169, 5, 5);
-    transition: border-bottom 0.3s ease-in-out;
-  }
 }
 .cardZone {
-  margin: 3% 0;
+  margin: 1% 0;
   padding: 0 2%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 .details {
   padding: 3% 4%;
   font-size: 17px;
   .projBody {
-    height: 80px;
+    height: 150px;
     padding-top: 2%;
+    margin: 3% 0;
     height: 100px;
   }
   .projLink {
@@ -59,9 +57,15 @@
     & .projBody {
       font-size: 16px;
     }
+    .author {
+      margin-top: 8%;
+    }
+  }
+  .content {
+    padding: 3% 2%;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .projBody {
     font-size: 15px !important;
   }
