@@ -35,8 +35,7 @@ export const articles = [
     previewText:
       "I'm thankful to God that I made it to the end of the year 💛 A lot happened this year. Even to me, personally. I never understood what being 'depressed' meant, until I experienced it. But I'm grateful to God that things are getting better.",
     author: 'Dillion Megida',
-    readMore:
-      'https://dillionmegida.com/p/2020-in-review/',
+    readMore: 'https://dillionmegida.com/p/2020-in-review/',
   },
   {
     title: '2020 In Review: Remarkable progress',
@@ -45,5 +44,21 @@ export const articles = [
     author: 'Adio Mojeed',
     readMore:
       'https://codeleaf.hashnode.dev/2020-in-review-remarkable-progress-ckjdevaw90jbglvs14kok1qou',
+  },
+  {
+    title: '2020 — Tossing The Coin',
+    previewText:
+      'I’m obsessed with Undeserving by Simi. The songs connect with me on an emotional level. Damn! This year, I walked away from a long-term relationship and I thought it was going to be the end of me because of how much I love her.',
+    author: 'Akinjobi Sodiq',
+    readMore:
+      'https://medium.com/@Geektutor/2020-tossing-the-coin-9283b05c4b4b',
+  },
+  {
+    title: '2020: A great year nevertheless',
+    previewText:
+      '2020 was definitely a full decade. From Covid to BLM down to #EndSars with a sprinkle of every other thing in between. We finally made it to the end. Daniel already summarized the whole of 2020 in this image.',
+    author: 'Alamu Benjamin',
+    readMore:
+      'https://benjamin-alamu.medium.com/2020-a-great-year-nevertheless-6e4834a0f758',
   },
 ]
