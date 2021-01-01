@@ -13,8 +13,8 @@ const Content = () => {
           <div className={contentStyle.cardZone}>
             {articles.map((article, index) => {
               return (
-                <Grid item xs={12} md={6} spacing={2}>
-                  <Card key={index}>
+                <Grid item xs={12} md={6} key={index}>
+                  <Card>
                     <div className={contentStyle.details}>
                       <p className={contentStyle.articleTitle}>
                         {article.title}
