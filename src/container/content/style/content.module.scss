@@ -24,12 +24,12 @@
 }
 .details {
   padding: 3% 4%;
-  font-size: 17px;
+  font-size: 18px;
   .projBody {
-    height: 150px;
+    height: 160px;
     padding-top: 2%;
     margin: 3% 0;
-    height: 100px;
+    text-align: justify;
   }
   .projLink {
     text-decoration: underline;
@@ -55,7 +55,6 @@
       margin-top: 4%;
     }
     & .projBody {
-      font-size: 16px;
       height: 165px;
     }
     .author {

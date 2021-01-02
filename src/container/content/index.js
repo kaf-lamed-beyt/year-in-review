@@ -5,6 +5,10 @@ import Card from '../../../components/card'
 import { articles } from '../../articles'
 
 const Content = () => {
+  // // enables people to see the time 
+  // // a particular article was
+  // const addedHereAt = new Date().getMinutes()
+
   return (
     <section className={contentStyle.content}>
       <section className={contentStyle.projects} id="articles">
