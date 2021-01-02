@@ -5,11 +5,10 @@ import Card from '../../../components/card'
 import { articles } from '../../articles'
 
 const Content = () => {
-  const [post, setPost] = React.useState()
-
   // gets the index that is generated randomly
   // and renders it in the DOM
   // the useEffect hook)
+  const shuffledPosts = articles.sort(() => Math.random() - 0.5)
 
   return (
     <section className={contentStyle.content}>
@@ -17,32 +16,33 @@ const Content = () => {
         <p className={contentStyle.title}>2020: Year in Review</p>
         <Grid container>
           <div className={contentStyle.cardZone}>
-            {articles.map((article, index) => {
-              return (
-                <Grid item xs={12} md={6} key={index}>
-                  <Card>
-                    <div className={contentStyle.details}>
-                      <div className={contentStyle.latter}>
-                        <p className={contentStyle.articleTitle}>
-                          {article.title}
+            {shuffledPosts &&
+              articles.map((article, index) => {
+                return (
+                  <Grid item xs={12} md={6} key={index}>
+                    <Card>
+                      <div className={contentStyle.details}>
+                        <div className={contentStyle.latter}>
+                          <p className={contentStyle.articleTitle}>
+                            {article.title}
+                          </p>
+                          <span>{article.when}</span>
+                        </div>
+                        <div className={contentStyle.border}></div>
+                        <p className={contentStyle.projBody}>
+                          {article.previewText}
                         </p>
-                        <span>{article.when}</span>
+                        <p className={contentStyle.author}>{article.author}</p>
+                        <p className={contentStyle.projLink}>
+                          <a href={article.readMore} target="__blank">
+                            Read more
+                          </a>
+                        </p>
                       </div>
-                      <div className={contentStyle.border}></div>
-                      <p className={contentStyle.projBody}>
-                        {article.previewText}
-                      </p>
-                      <p className={contentStyle.author}>{article.author}</p>
-                      <p className={contentStyle.projLink}>
-                        <a href={article.readMore} target="__blank">
-                          Read more
-                        </a>
-                      </p>
-                    </div>
-                  </Card>
-                </Grid>
-              )
-            })}
+                    </Card>
+                  </Grid>
+                )
+              })}
           </div>
         </Grid>
       </section>
