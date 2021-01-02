@@ -3,9 +3,14 @@ import contentStyle from './style/content.module.scss'
 import Grid from '@material-ui/core/Grid'
 import Card from '../../../components/card'
 import { articles } from '../../articles'
-import moment from "moment"
 
 const Content = () => {
+  const [post, setPost] = React.useState()
+
+  // gets the index that is generated randomly
+  // and renders it in the DOM
+  // the useEffect hook)
+
   return (
     <section className={contentStyle.content}>
       <section className={contentStyle.projects} id="articles">
@@ -21,9 +26,7 @@ const Content = () => {
                         <p className={contentStyle.articleTitle}>
                           {article.title}
                         </p>
-                        <span>
-                          added {article.when}
-                        </span>
+                        <span>{article.when}</span>
                       </div>
                       <div className={contentStyle.border}></div>
                       <p className={contentStyle.projBody}>

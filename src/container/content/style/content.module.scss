@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  padding: 3% 9%;
+  padding: 3% 9% !important;
   padding-bottom: 8%;
 }
 .border {
@@ -71,12 +71,15 @@
     .author {
       margin-top: 8%;
     }
+    .articleTitle {
+      font-size: 16px;
+    }
   }
   .content {
     padding: 3% 2%;
   }
 }
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .projBody {
     font-size: 15px !important;
   }
