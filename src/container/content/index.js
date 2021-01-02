@@ -3,11 +3,10 @@ import contentStyle from './style/content.module.scss'
 import Grid from '@material-ui/core/Grid'
 import Card from '../../../components/card'
 import { articles } from '../../articles'
+import moment from "moment"
 
 const Content = () => {
-  // // enables people to see the time 
-  // // a particular article was
-  // const addedHereAt = new Date().getMinutes()
+  const time = Date.now()
 
   return (
     <section className={contentStyle.content}>
@@ -20,9 +19,14 @@ const Content = () => {
                 <Grid item xs={12} md={6} key={index}>
                   <Card>
                     <div className={contentStyle.details}>
-                      <p className={contentStyle.articleTitle}>
-                        {article.title}
-                      </p>
+                      <div className={contentStyle.latter}>
+                        <p className={contentStyle.articleTitle}>
+                          {article.title}
+                        </p>
+                        <span>
+                          added {moment().startOf(time).fromNow()}
+                        </span>
+                      </div>
                       <div className={contentStyle.border}></div>
                       <p className={contentStyle.projBody}>
                         {article.previewText}

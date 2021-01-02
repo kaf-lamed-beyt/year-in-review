@@ -4,6 +4,7 @@ import Head from "next/head";
 import { CssBaseline, ThemeProvider } from "@material-ui/core";
 import theme from "../src/theme";
 
+
 function MyApp({ Component, pageProps }) {
   React.useEffect(() => {
     const jssStyles = document.querySelector("#jss-server-side");

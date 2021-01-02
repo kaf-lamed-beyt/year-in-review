@@ -25,11 +25,18 @@
 .details {
   padding: 3% 4%;
   font-size: 18px;
+  .latter {
+    display: flex;
+    justify-content: space-between;
+  }
+  & span {
+    font-size: 13px;
+    padding: 3% 0;
+  }
   .projBody {
     height: 160px;
     padding-top: 2%;
     margin: 3% 0;
-    text-align: justify;
   }
   .projLink {
     text-decoration: underline;
@@ -51,11 +58,15 @@
     .title {
       font-size: 18px;
     }
+    & span {
+      font-size: 10px;
+    }
     & .projLink {
       margin-top: 4%;
     }
     & .projBody {
       height: 165px;
+      font-size: 14px;
     }
     .author {
       margin-top: 8%;
