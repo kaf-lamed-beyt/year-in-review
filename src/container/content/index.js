@@ -6,8 +6,6 @@ import { articles } from '../../articles'
 import moment from "moment"
 
 const Content = () => {
-  const time = Date.now()
-
   return (
     <section className={contentStyle.content}>
       <section className={contentStyle.projects} id="articles">
@@ -24,7 +22,7 @@ const Content = () => {
                           {article.title}
                         </p>
                         <span>
-                          added {moment().startOf(time).fromNow()}
+                          added {article.when}
                         </span>
                       </div>
                       <div className={contentStyle.border}></div>
