@@ -6,7 +6,8 @@ export const articles = [
     previewText:
       'If I were to describe 2020 in one word, it would be "wins". At the end of 2019, I was a tech newbie. I was struggling with materials and courses; I had little belief in myself. It seemed like I was underqualified for every opportunity I came across.',
     author: 'Tantoluwa Heritage Alabi NB',
-    readMore: 'https://tantoluwaalabiheritage.hashnode.dev/2020-the-year-of-ups-and-downs-ckjevxuww017kh4s1ee1xa4jk',
+    readMore:
+      'https://tantoluwaalabiheritage.hashnode.dev/2020-the-year-of-ups-and-downs-ckjevxuww017kh4s1ee1xa4jk',
     when: moment(new Date('Jan 2 2021, 16:30:00')).fromNow(),
   },
   {
@@ -24,7 +25,7 @@ export const articles = [
     author: 'Akinjobi Sodiq',
     readMore:
       'https://medium.com/@Geektutor/2020-tossing-the-coin-9283b05c4b4b',
-    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow()
+    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
   },
   {
     title: '2020: A great year nevertheless',
@@ -33,7 +34,7 @@ export const articles = [
     author: 'Alamu Benjamin',
     readMore:
       'https://benjamin-alamu.medium.com/2020-a-great-year-nevertheless-6e4834a0f758',
-    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow()
+    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
   },
   {
     title: '2020 In Review',
@@ -41,7 +42,7 @@ export const articles = [
       "I'm thankful to God that I made it to the end of the year 💛 A lot happened this year. Even to me, personally. I never understood what being 'depressed' meant, until I experienced it. But I'm grateful to God that things are getting better.",
     author: 'Dillion Megida',
     readMore: 'https://dillionmegida.com/p/2020-in-review/',
-    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow()
+    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
   },
   {
     title: '2020 In Review: Remarkable progress',
@@ -50,7 +51,7 @@ export const articles = [
     author: 'Adio Mojeed',
     readMore:
       'https://codeleaf.hashnode.dev/2020-in-review-remarkable-progress-ckjdevaw90jbglvs14kok1qou',
-    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow()
+    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
   },
   {
     title: '2020',
@@ -58,7 +59,7 @@ export const articles = [
       "In my 2019 Year in Review, I wrote: 'Next year is going to be a significant year for me for a lot of different reasons. I’m looking forward to writing my 2020 year in review :)'",
     author: 'Ire Aderinokun',
     readMore: 'https://medium.com/@ireade/2020-10eaa7563544/',
-    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow()
+    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
   },
   {
     title: '2020: My Year in Review',
@@ -67,7 +68,7 @@ export const articles = [
     author: 'Daniel Abudu',
     readMore:
       'https://unorthodoxdaniel.medium.com/2020-my-year-in-review-277c6fdcd903/',
-    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow()
+    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
   },
   {
     title: 'My 2020 Year in Review',
@@ -76,7 +77,7 @@ export const articles = [
     author: 'Amarachi Emmanuela Azubuike',
     readMore:
       'https://medium.com/@amarachiazubuike/my-2020-year-in-review-fc088a1d5857',
-    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow()
+    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
   },
   {
     title: 'Fu*k this Year, I got a Benz',
@@ -85,6 +86,15 @@ export const articles = [
     author: 'Emeka Boris',
     readMore:
       'https://emekaboris.medium.com/fu-k-this-year-i-got-a-benz-f0cf68c99536',
-    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow()
+    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
+  },
+  {
+    title: 'Vince vs 2020 (the year in review)',
+    previewText:
+      'The year 2020 for me (and for everybody else on the planet I’m sure) has been one like no other, crowned with a global pandemic from a deadly virus it’s no surprise everybody that’s made it this far is nothing short of thankful for life and ready to move on, but somehow I have mixed feelings moving into the new year.',
+    author: 'Vincent Edeh',
+    readMore:
+      'https://dev-vince.medium.com/vince-vs-2020-the-year-in-review-6f600fd50a92',
+    when: moment(new Date('Jan 3 2021, 13:54:00')).fromNow(),
   },
 ]
