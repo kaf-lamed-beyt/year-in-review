@@ -7,8 +7,8 @@ import { articles } from '../../articles'
 const Content = () => {
   // gets the index that is generated randomly
   // and renders it in the DOM
-  // the useEffect hook)
-  const shuffledPosts = articles.sort(() => Math.random() - 0.5)
+  // // the useEffect hook
+  const shuffledPosts = articles.sort(() => Math.random() - articles.length)
 
   return (
     <section className={contentStyle.content}>
@@ -16,8 +16,8 @@ const Content = () => {
         <p className={contentStyle.title}>2020: Year in Review</p>
         <Grid container>
           <div className={contentStyle.cardZone}>
-            {shuffledPosts &&
-              articles.map((article, index) => {
+            {shuffledPosts && articles
+              .map((article, index) => {
                 return (
                   <Grid item xs={12} md={6} key={index}>
                     <Card>
