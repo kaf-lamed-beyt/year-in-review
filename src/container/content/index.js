@@ -7,7 +7,7 @@ import { articles } from '../../articles'
 const Content = () => {
   // gets the index that is generated randomly
   // and renders it in the DOM
-  // // the useEffect hook
+  // the useEffect hook
   const shuffledPosts = articles.sort(() => Math.random() - articles.length)
 
   return (
