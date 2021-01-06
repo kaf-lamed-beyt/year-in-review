@@ -8,7 +8,23 @@ const Content = () => {
   // gets the index that is generated randomly
   // and renders it in the DOM
   // the useEffect hook)
-  const shuffledPosts = articles.sort(() => Math.random() - 0.5)
+  const shuffle = (arr) => {
+    const indexA = Math.round(Math.random() * (arr.length - 1))
+    const indexB = Math.round(Math.random() * (arr.length - 1))
+
+    const arrValue = arr[indexA]
+    arr[indexA] = arr[indexB]
+    arr[indexB] = arrValue
+
+    return arr
+  }
+
+  const shuffleArr = (arr) => {
+    for (let index = 0; index < arr.length; index++) {
+      shuffle(arr)
+    }
+    return arr
+  }
 
   return (
     <section className={contentStyle.content}>
@@ -16,33 +32,32 @@ const Content = () => {
         <p className={contentStyle.title}>2020: Year in Review</p>
         <Grid container>
           <div className={contentStyle.cardZone}>
-            {shuffledPosts &&
-              articles.map((article, index) => {
-                return (
-                  <Grid item xs={12} md={6} key={index}>
-                    <Card>
-                      <div className={contentStyle.details}>
-                        <div className={contentStyle.latter}>
-                          <p className={contentStyle.articleTitle}>
-                            {article.title}
-                          </p>
-                          <span>{article.when}</span>
-                        </div>
-                        <div className={contentStyle.border}></div>
-                        <p className={contentStyle.projBody}>
-                          {article.previewText}
+            {shuffleArr(articles).map((article, index) => {
+              return (
+                <Grid item xs={12} md={6} key={index}>
+                  <Card>
+                    <div className={contentStyle.details}>
+                      <div className={contentStyle.latter}>
+                        <p className={contentStyle.articleTitle}>
+                          {article.title}
                         </p>
-                        <p className={contentStyle.author}>{article.author}</p>
-                        <p className={contentStyle.projLink}>
-                          <a href={article.readMore} target="__blank">
-                            Read more
-                          </a>
-                        </p>
+                        <span>{article.when}</span>
                       </div>
-                    </Card>
-                  </Grid>
-                )
-              })}
+                      <div className={contentStyle.border}></div>
+                      <p className={contentStyle.projBody}>
+                        {article.previewText}
+                      </p>
+                      <p className={contentStyle.author}>{article.author}</p>
+                      <p className={contentStyle.projLink}>
+                        <a href={article.readMore} target="__blank">
+                          Read more
+                        </a>
+                      </p>
+                    </div>
+                  </Card>
+                </Grid>
+              )
+            })}
           </div>
         </Grid>
       </section>
