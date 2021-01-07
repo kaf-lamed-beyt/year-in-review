@@ -2,6 +2,23 @@ import moment from 'moment'
 
 export const articles = [
   {
+    title: 'Vince vs 2020 (the year in review)',
+    previewText:
+      'The year 2020 for me (and for everybody else on the planet I’m sure) has been one like no other, crowned with a global pandemic from a deadly virus it’s no surprise everybody that’s made it this far is nothing short of thankful for life and ready to move on, but somehow I have mixed feelings moving into the new year.',
+    author: 'Vincent Edeh',
+    readMore:
+      'https://dev-vince.medium.com/vince-vs-2020-the-year-in-review-6f600fd50a92',
+    when: moment(new Date('Jan 3 2021, 13:54:00')).fromNow(),
+  },
+  {
+    title: '2020',
+    previewText:
+      'My birthday was on the 26th of December 2020. Two days later, the 28th of December became six (6) months since my mum passed on… Let’s go right back to January 2020.',
+    author: 'Laviedegeorge',
+    readMore: 'https://laviedegeorge.medium.com/2020-39ab77997b46',
+    when: moment(new Date('Jan 5 2021, 08:33:00')).fromNow(),
+  },
+  {
     title: '2020 : The year of Ups and Downs',
     previewText:
       'If I were to describe 2020 in one word, it would be "wins". At the end of 2019, I was a tech newbie. I was struggling with materials and courses; I had little belief in myself. It seemed like I was underqualified for every opportunity I came across.',
@@ -87,22 +104,5 @@ export const articles = [
     readMore:
       'https://emekaboris.medium.com/fu-k-this-year-i-got-a-benz-f0cf68c99536',
     when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
-  },
-  {
-    title: 'Vince vs 2020 (the year in review)',
-    previewText:
-      'The year 2020 for me (and for everybody else on the planet I’m sure) has been one like no other, crowned with a global pandemic from a deadly virus it’s no surprise everybody that’s made it this far is nothing short of thankful for life and ready to move on, but somehow I have mixed feelings moving into the new year.',
-    author: 'Vincent Edeh',
-    readMore:
-      'https://dev-vince.medium.com/vince-vs-2020-the-year-in-review-6f600fd50a92',
-    when: moment(new Date('Jan 3 2021, 13:54:00')).fromNow(),
-  },
-  {
-    title: '2020',
-    previewText:
-      'My birthday was on the 26th of December 2020. Two days later, the 28th of December became six (6) months since my mum passed on… Let’s go right back to January 2020.',
-    author: 'Laviedegeorge',
-    readMore: 'https://laviedegeorge.medium.com/2020-39ab77997b46',
-    when: moment(new Date('Jan 5 2021, 08:33:00')).fromNow(),
   },
 ]
