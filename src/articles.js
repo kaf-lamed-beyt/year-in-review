@@ -102,8 +102,7 @@ export const articles = [
     previewText:
       'My birthday was on the 26th of December 2020. Two days later, the 28th of December became six (6) months since my mum passed on… Let’s go right back to January 2020.',
     author: 'Laviedegeorge',
-    readMore:
-      'https://laviedegeorge.medium.com/2020-39ab77997b46',
+    readMore: 'https://laviedegeorge.medium.com/2020-39ab77997b46',
     when: moment(new Date('Jan 5 2021, 08:33:00')).fromNow(),
   },
 ]

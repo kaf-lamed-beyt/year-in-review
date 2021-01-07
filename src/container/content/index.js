@@ -5,44 +5,38 @@ import Card from '../../../components/card'
 import { articles } from '../../articles'
 
 const Content = () => {
-  // gets the index that is generated randomly
-  // and renders it in the DOM
-  // the useEffect hook
-  const shuffledPosts = articles.sort(() => Math.random() - articles.length)
-
   return (
     <section className={contentStyle.content}>
       <section className={contentStyle.projects} id="articles">
         <p className={contentStyle.title}>2020: Year in Review</p>
         <Grid container>
           <div className={contentStyle.cardZone}>
-            {shuffledPosts && articles
-              .map((article, index) => {
-                return (
-                  <Grid item xs={12} md={6} key={index}>
-                    <Card>
-                      <div className={contentStyle.details}>
-                        <div className={contentStyle.latter}>
-                          <p className={contentStyle.articleTitle}>
-                            {article.title}
-                          </p>
-                          <span>{article.when}</span>
-                        </div>
-                        <div className={contentStyle.border}></div>
-                        <p className={contentStyle.projBody}>
-                          {article.previewText}
+            {articles.map((article, index) => {
+              return (
+                <Grid item xs={12} md={6} key={index}>
+                  <Card>
+                    <div className={contentStyle.details}>
+                      <div className={contentStyle.latter}>
+                        <p className={contentStyle.articleTitle}>
+                          {article.title}
                         </p>
-                        <p className={contentStyle.author}>{article.author}</p>
-                        <p className={contentStyle.projLink}>
-                          <a href={article.readMore} target="__blank">
-                            Read more
-                          </a>
-                        </p>
+                        <span>{article.when}</span>
                       </div>
-                    </Card>
-                  </Grid>
-                )
-              })}
+                      <div className={contentStyle.border}></div>
+                      <p className={contentStyle.projBody}>
+                        {article.previewText}
+                      </p>
+                      <p className={contentStyle.author}>{article.author}</p>
+                      <p className={contentStyle.projLink}>
+                        <a href={article.readMore} target="__blank">
+                          Read more
+                        </a>
+                      </p>
+                    </div>
+                  </Card>
+                </Grid>
+              )
+            })}
           </div>
         </Grid>
       </section>
