@@ -13,7 +13,7 @@ const Content = () => {
           <div className={contentStyle.cardZone}>
             {articles.map((article, index) => {
               return (
-                <Grid item xs={12} md={6} key={index}>
+                <Grid item xs={12} key={index}>
                   <Card>
                     <div className={contentStyle.details}>
                       <div className={contentStyle.latter}>
