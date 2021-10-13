@@ -4,7 +4,7 @@ const articles = [
   {
     title: 'Vince vs 2020 (the year in review)',
     previewText:
-      'The year 2020 for me (and for everybody else on the planet I’m sure) has been one like no other, crowned with a global pandemic from a deadly virus it’s no surprise everybody that’s made it this far is nothing short of thankful for life and ready to move on, but somehow I have mixed feelings moving into the new year.',
+      'The year 2020 for me (and for everybody else on the planet I’m sure) has been one like no other, crowned with a global pandemic from a deadly virus it’s no surprise everybody that’s made it this far is nothing short of thankful for life and ready to move on, but somehow...',
     author: 'Vincent Edeh',
     readMore:
       'https://dev-vince.medium.com/vince-vs-2020-the-year-in-review-6f600fd50a92',
@@ -33,7 +33,7 @@ const articles = [
   {
     title: 'Reflections on 2020',
     previewText:
-      'The week that the World Health Organization announced that COVID was a pandemic, my husband started night sweating again. Night sweats are a symptom of his cancer, lymphoma, returning— it’s not a perfect indicator, but they historically correlate like clockwork to when the disease has spread in his body.',
+      'The week that the World Health Organization announced that COVID was a pandemic, my husband started night sweating again. Night sweats are a symptom of his cancer, lymphoma, returning— it’s not a perfect indicator, but they...',
     author: 'Sarah Drasner',
     readMore: 'https://sarah.dev/blog/reflections-on-2020/',
     when: moment(new Date('Jan 2 2021, 08:30:00')).fromNow(),

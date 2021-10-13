@@ -1,21 +1,31 @@
+@import '/styles/variables.scss';
+
 .content {
   background: ghostwhite;
   height: 100%;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
   padding: 3% 9%;
-  padding-bottom: 8%;
 
   .cardZone {
-    padding: 0 2%;
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .title {
+    font-size: 25px;
+    color: $primary;
+    padding: 30px 0;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .content {
     padding: 3% 2%;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  .content {
+    // padding: 0;
+    padding-left: 40px;
   }
 }

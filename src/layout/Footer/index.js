@@ -1,5 +1,5 @@
 import React from 'react'
-import footStyle from './style/footer.module.scss'
+import footStyle from './scss/footer.module.scss'
 import { BiCopyright } from 'react-icons/bi'
 
 const Footer = () => {

@@ -1,18 +1,18 @@
-import React from "react";
-import "../styles/globals.scss";
-import Head from "next/head";
-import { CssBaseline, ThemeProvider } from "@material-ui/core";
-import theme from "../src/theme";
-
+import React from 'react'
+import '../styles/globals.scss'
+import '../styles/variables.scss'
+import Head from 'next/head'
+import { CssBaseline, ThemeProvider } from '@material-ui/core'
+import theme from '../src/theme'
 
 function MyApp({ Component, pageProps }) {
   React.useEffect(() => {
-    const jssStyles = document.querySelector("#jss-server-side");
+    const jssStyles = document.querySelector('#jss-server-side')
 
     if (jssStyles) {
-      jssStyles.parentElement.removeChild(jssStyles);
+      jssStyles.parentElement.removeChild(jssStyles)
     }
-  }, []);
+  }, [])
 
   return (
     <div>
@@ -33,7 +33,7 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
       </ThemeProvider>
     </div>
-  );
+  )
 }
 
-export default MyApp;
+export default MyApp

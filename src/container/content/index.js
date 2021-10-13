@@ -9,13 +9,9 @@ const Content = () => {
     <section className={contentStyle.content}>
       <section className={contentStyle.projects} id="articles">
         <p className={contentStyle.title}>2020: Year in Review</p>
-        <Grid container>
-          <div className={contentStyle.cardZone}>
-            <Grid item xs={12} sm={6}>
-              <Card data={sortedArticles} />
-            </Grid>
-          </div>
-        </Grid>
+        <div className={contentStyle.cardZone}>
+          <Card data={sortedArticles} />
+        </div>
       </section>
     </section>
   )

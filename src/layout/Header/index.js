@@ -1,5 +1,5 @@
 import React from 'react'
-import headStyle from './style/header.module.scss'
+import headStyle from './scss/header.module.scss'
 import Link from 'next/link'
 
 const Header = () => {
@@ -13,7 +13,10 @@ const Header = () => {
         </div>
         <div className={headStyle.navLinks}>
           <ul>
-            <a href="https://github.com/Caleb335/year-in-review" target="__blank">
+            <a
+              href="https://github.com/Caleb335/year-in-review"
+              target="__blank"
+            >
               <li>Contribute</li>
             </a>
           </ul>
