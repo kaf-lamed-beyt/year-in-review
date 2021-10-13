@@ -1,6 +1,6 @@
 import moment from 'moment'
 
-export const articles = [
+const articles = [
   {
     title: 'Vince vs 2020 (the year in review)',
     previewText:
@@ -9,6 +9,7 @@ export const articles = [
     readMore:
       'https://dev-vince.medium.com/vince-vs-2020-the-year-in-review-6f600fd50a92',
     when: moment(new Date('Jan 3 2021, 13:54:00')).fromNow(),
+    entry_id: 1,
   },
   {
     title: '2020',
@@ -17,6 +18,7 @@ export const articles = [
     author: 'Laviedegeorge',
     readMore: 'https://laviedegeorge.medium.com/2020-39ab77997b46',
     when: moment(new Date('Jan 5 2021, 08:33:00')).fromNow(),
+    entry_id: 2,
   },
   {
     title: '2020 : The year of Ups and Downs',
@@ -26,6 +28,7 @@ export const articles = [
     readMore:
       'https://tantoluwaalabiheritage.hashnode.dev/2020-the-year-of-ups-and-downs-ckjevxuww017kh4s1ee1xa4jk',
     when: moment(new Date('Jan 2 2021, 16:30:00')).fromNow(),
+    entry_id: 3,
   },
   {
     title: 'Reflections on 2020',
@@ -34,6 +37,7 @@ export const articles = [
     author: 'Sarah Drasner',
     readMore: 'https://sarah.dev/blog/reflections-on-2020/',
     when: moment(new Date('Jan 2 2021, 08:30:00')).fromNow(),
+    entry_id: 4,
   },
   {
     title: '2020 — Tossing The Coin',
@@ -43,6 +47,7 @@ export const articles = [
     readMore:
       'https://medium.com/@Geektutor/2020-tossing-the-coin-9283b05c4b4b',
     when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
+    entry_id: 5,
   },
   {
     title: '2020: A great year nevertheless',
@@ -52,6 +57,7 @@ export const articles = [
     readMore:
       'https://benjamin-alamu.medium.com/2020-a-great-year-nevertheless-6e4834a0f758',
     when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
+    entry_id: 6,
   },
   {
     title: '2020 In Review',
@@ -60,6 +66,7 @@ export const articles = [
     author: 'Dillion Megida',
     readMore: 'https://dillionmegida.com/p/2020-in-review/',
     when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
+    entry_id: 7,
   },
   {
     title: '2020 In Review: Remarkable progress',
@@ -69,6 +76,7 @@ export const articles = [
     readMore:
       'https://codeleaf.hashnode.dev/2020-in-review-remarkable-progress-ckjdevaw90jbglvs14kok1qou',
     when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
+    entry_id: 8,
   },
   {
     title: '2020',
@@ -77,6 +85,7 @@ export const articles = [
     author: 'Ire Aderinokun',
     readMore: 'https://medium.com/@ireade/2020-10eaa7563544/',
     when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
+    entry_id: 9,
   },
   {
     title: '2020: My Year in Review',
@@ -86,6 +95,7 @@ export const articles = [
     readMore:
       'https://unorthodoxdaniel.medium.com/2020-my-year-in-review-277c6fdcd903/',
     when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
+    entry_id: 10,
   },
   {
     title: 'My 2020 Year in Review',
@@ -95,6 +105,7 @@ export const articles = [
     readMore:
       'https://medium.com/@amarachiazubuike/my-2020-year-in-review-fc088a1d5857',
     when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
+    entry_id: 11,
   },
   {
     title: 'Fu*k this Year, I got a Benz',
@@ -104,5 +115,10 @@ export const articles = [
     readMore:
       'https://emekaboris.medium.com/fu-k-this-year-i-got-a-benz-f0cf68c99536',
     when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
+    entry_id: 12,
   },
 ]
+
+export const sortedArticles = articles.sort((a, b) => {
+  b.entry_id - a.entry_id
+})

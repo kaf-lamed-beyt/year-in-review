@@ -1,8 +1,8 @@
 import React from 'react'
-import contentStyle from './style/content.module.scss'
+import contentStyle from './scss/content.module.scss'
 import Grid from '@material-ui/core/Grid'
-import Card from '../../../components/card'
-import { articles } from '../../articles'
+import Card from '../../components/card'
+import { sortedArticles } from '../../articles'
 
 const Content = () => {
   return (
@@ -11,32 +11,9 @@ const Content = () => {
         <p className={contentStyle.title}>2020: Year in Review</p>
         <Grid container>
           <div className={contentStyle.cardZone}>
-            {articles.map((article, index) => {
-              return (
-                <Grid item xs={12} sm={6} key={index}>
-                  <Card>
-                    <div className={contentStyle.details}>
-                      <div className={contentStyle.latter}>
-                        <p className={contentStyle.articleTitle}>
-                          {article.title}
-                        </p>
-                        <span>{article.when}</span>
-                      </div>
-                      <div className={contentStyle.border}></div>
-                      <p className={contentStyle.projBody}>
-                        {article.previewText}
-                      </p>
-                      <p className={contentStyle.author}>{article.author}</p>
-                      <p className={contentStyle.projLink}>
-                        <a href={article.readMore} target="__blank">
-                          Read more
-                        </a>
-                      </p>
-                    </div>
-                  </Card>
-                </Grid>
-              )
-            })}
+            <Grid item xs={12} sm={6}>
+              <Card data={sortedArticles} />
+            </Grid>
           </div>
         </Grid>
       </section>
