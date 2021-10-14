@@ -1,15 +1,8 @@
+@import '/styles/variables.scss';
+
 #headCont {
-  background: linear-gradient(
-      0deg,
-      rgba(115, 120, 214, 0.9),
-      rgba(115, 120, 214, 0.9)
-    ),
-    url('/img/cover.jpg');
-  background-size: cover;
-  object-fit: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 643px;
+  height: 680px;
+  background: $eerie-black;
 
   header {
     height: 50px;
@@ -19,7 +12,7 @@
     color: #fff;
     padding: 10px 0;
     font-size: 17px;
-    background: rgb(11, 15, 90);
+    background: $jet;
     position: fixed;
     top: 0;
     width: 100%;
@@ -39,8 +32,8 @@
     padding: 0 9px;
     list-style-type: none;
     &:hover {
-      border-bottom: 1px solid rgb(255, 81, 0);
-      color: rgb(255, 81, 0);
+      border-bottom: 1px solid $primary;
+      color: $primary;
       transition: all 0.3s ease-in;
       cursor: pointer;
     }
@@ -48,24 +41,67 @@
 }
 .hero {
   display: flex;
-  justify-content: space-around;
-  padding: 20% 9%;
-  flex-direction: column;
-  font-size: 50px;
+  justify-content: space-between;
+  padding: 6% 5%;
   color: #fff;
+
   p {
     font-size: 60px;
+    font-weight: 700;
+    line-height: 90px;
+    width: 68%;
+    height: 300px;
+    color: ghostwhite;
+    margin: 180px 0 0 0;
+
+    & span {
+      color: $primary;
+    }
+  }
+
+  .illustration {
+    height: 500px;
+    width: 780px;
   }
 }
-@media only screen and (max-width: 768px) {
+
+@media only screen and (min-width: 0px) and (max-width: 576px) {
   #headCont {
-    height: 680px;
+    height: 70%;
   }
   .hero {
-    padding: 55% 5%;
+    padding: 5% 3%;
+    padding-bottom: 0;
+    flex-flow: column;
 
     & p {
       font-size: 40px;
+      line-height: 50px;
+      width: 95%;
+    }
+
+    .illustration {
+      width: 100%;
+      margin-top: -100px;
+    }
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  #headCont {
+    height: 100%;
+  }
+  .hero {
+    padding: 5% 3%;
+
+    & p {
+      font-size: 40px;
+      line-height: 50px;
+      width: 95%;
+    }
+
+    .illustration {
+      padding: 60px 0 0 0;
     }
   }
 }

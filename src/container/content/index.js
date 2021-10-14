@@ -1,6 +1,5 @@
 import React from 'react'
 import contentStyle from './scss/content.module.scss'
-import Grid from '@material-ui/core/Grid'
 import Card from '../../components/card'
 import { sortedArticles } from '../../articles'
 

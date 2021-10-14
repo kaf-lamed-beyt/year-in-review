@@ -23,7 +23,12 @@ const Header = () => {
         </div>
       </header>
       <div className={headStyle.hero}>
-        <p className={headStyle.h2}>Hey there, You are Awesome!</p>
+        <p className={headStyle.h2}>
+          A gallery of <span>"</span>year in review<span>"</span> articles.
+        </p>
+        <div className={headStyle.illustration}>
+          <img src="/img/review.svg" alt="review illustration" />
+        </div>
       </div>
     </section>
   )
