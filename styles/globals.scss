@@ -13,15 +13,11 @@ a {
 }
 
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 7px;
 }
 
 ::-webkit-scrollbar-thumb {
   height: 4px;
   background: $primary;
   border-radius: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: $jet;
 }

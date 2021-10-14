@@ -19,6 +19,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Awesome Year in Reviews</title>
         <link rel="icon" href="/robocon.png" />
+        <meta name="theme-color" content="rgba(225, 18, 51)" />
         <link
           href="https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu:wght@300;400;500&display=swap"
           rel="stylesheet"
