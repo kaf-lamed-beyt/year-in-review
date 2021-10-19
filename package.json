@@ -12,6 +12,7 @@
     "moment": "^2.29.1",
     "next": "10.0.4",
     "react": "17.0.1",
+    "react-contributors": "^1.1.1",
     "react-dom": "17.0.1",
     "react-icons": "^4.1.0",
     "sass": "^1.32.0"

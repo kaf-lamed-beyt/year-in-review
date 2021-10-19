@@ -15,10 +15,10 @@ function MyApp({ Component, pageProps }) {
   }, [])
 
   return (
-    <div>
+    <React.Fragment>
       <Head>
         <title>Awesome Year in Reviews</title>
-        <link rel="icon" href="/robocon.png" />
+        <link rel="icon" type="image/ico" href="/robocon.png" />
         <meta name="theme-color" content="rgba(225, 18, 51)" />
         <link
           href="https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu:wght@300;400;500&display=swap"
@@ -33,7 +33,7 @@ function MyApp({ Component, pageProps }) {
         <CssBaseline />
         <Component {...pageProps} />
       </ThemeProvider>
-    </div>
+    </React.Fragment>
   )
 }
 
