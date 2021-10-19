@@ -118,6 +118,16 @@ const articles = [
     date: new Date('Jan 1 2021, 07:35:00'),
     entry_id: 12,
   },
+  {
+    title: 'My 2020 Year in Review by Cecelia Martinez',
+    previewText:
+      'I’ve never written a year in review, but decided that so much happened in 2020 it was worth taking a look back and reflecting. I started at Cypress at the end of January and it has been a wild, amazing ride since then...',
+    author: 'Cecelia Martinez',
+    readMore:
+      'https://dev.to/ceceliacreates/my-2020-year-in-review-aih',
+    date: new Date('Oct 19 2021, 15:50:00'),
+    entry_id: 13,
+  },
 ]
 
 export const sortedArticlesByDate = articles.sort((a, b) => {
