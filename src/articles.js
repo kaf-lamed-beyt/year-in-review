@@ -1,5 +1,6 @@
 import moment from 'moment'
 
+
 const articles = [
   {
     title: 'Vince vs 2020 (the year in review)',
@@ -8,7 +9,7 @@ const articles = [
     author: 'Vincent Edeh',
     readMore:
       'https://dev-vince.medium.com/vince-vs-2020-the-year-in-review-6f600fd50a92',
-    when: moment(new Date('Jan 3 2021, 13:54:00')).fromNow(),
+    date: new Date('Jan 3 2021, 13:54:00'),
     entry_id: 1,
   },
   {
@@ -17,7 +18,7 @@ const articles = [
       'My birthday was on the 26th of December 2020. Two days later, the 28th of December became six (6) months since my mum passed on… Let’s go right back to January 2020.',
     author: 'Laviedegeorge',
     readMore: 'https://laviedegeorge.medium.com/2020-39ab77997b46',
-    when: moment(new Date('Jan 5 2021, 08:33:00')).fromNow(),
+    date: new Date('Jan 5 2021, 08:33:00'),
     entry_id: 2,
   },
   {
@@ -27,7 +28,7 @@ const articles = [
     author: 'Tantoluwa Heritage Alabi NB',
     readMore:
       'https://tantoluwaalabiheritage.hashnode.dev/2020-the-year-of-ups-and-downs-ckjevxuww017kh4s1ee1xa4jk',
-    when: moment(new Date('Jan 2 2021, 16:30:00')).fromNow(),
+    date: new Date('Jan 2 2021, 16:30:00'),
     entry_id: 3,
   },
   {
@@ -36,7 +37,7 @@ const articles = [
       'The week that the World Health Organization announced that COVID was a pandemic, my husband started night sweating again. Night sweats are a symptom of his cancer, lymphoma, returning— it’s not a perfect indicator, but they...',
     author: 'Sarah Drasner',
     readMore: 'https://sarah.dev/blog/reflections-on-2020/',
-    when: moment(new Date('Jan 2 2021, 08:30:00')).fromNow(),
+    date: new Date('Jan 2 2021, 08:30:00'),
     entry_id: 4,
   },
   {
@@ -46,7 +47,7 @@ const articles = [
     author: 'Akinjobi Sodiq',
     readMore:
       'https://medium.com/@Geektutor/2020-tossing-the-coin-9283b05c4b4b',
-    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
+    date: new Date('Jan 1 2021, 07:35:00'),
     entry_id: 5,
   },
   {
@@ -56,7 +57,7 @@ const articles = [
     author: 'Alamu Benjamin',
     readMore:
       'https://benjamin-alamu.medium.com/2020-a-great-year-nevertheless-6e4834a0f758',
-    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
+    date: new Date('Jan 1 2021, 07:35:00'),
     entry_id: 6,
   },
   {
@@ -65,7 +66,7 @@ const articles = [
       "I'm thankful to God that I made it to the end of the year 💛 A lot happened this year. Even to me, personally. I never understood what being 'depressed' meant, until I experienced it. But I'm grateful to God that things are getting better.",
     author: 'Dillion Megida',
     readMore: 'https://dillionmegida.com/p/2020-in-review/',
-    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
+    date: new Date('Jan 1 2021, 07:35:00'),
     entry_id: 7,
   },
   {
@@ -75,7 +76,7 @@ const articles = [
     author: 'Adio Mojeed',
     readMore:
       'https://codeleaf.hashnode.dev/2020-in-review-remarkable-progress-ckjdevaw90jbglvs14kok1qou',
-    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
+    date: new Date('Jan 1 2021, 07:35:00'),
     entry_id: 8,
   },
   {
@@ -84,7 +85,7 @@ const articles = [
       "In my 2019 Year in Review, I wrote: 'Next year is going to be a significant year for me for a lot of different reasons. I’m looking forward to writing my 2020 year in review :)'",
     author: 'Ire Aderinokun',
     readMore: 'https://medium.com/@ireade/2020-10eaa7563544/',
-    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
+    date: new Date('Jan 1 2021, 07:35:00'),
     entry_id: 9,
   },
   {
@@ -94,7 +95,7 @@ const articles = [
     author: 'Daniel Abudu',
     readMore:
       'https://unorthodoxdaniel.medium.com/2020-my-year-in-review-277c6fdcd903/',
-    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
+    date: new Date('Jan 1 2021, 07:35:00'),
     entry_id: 10,
   },
   {
@@ -104,7 +105,7 @@ const articles = [
     author: 'Amarachi Emmanuela Azubuike',
     readMore:
       'https://medium.com/@amarachiazubuike/my-2020-year-in-review-fc088a1d5857',
-    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
+    date: new Date('Jan 1 2021, 07:35:00'),
     entry_id: 11,
   },
   {
@@ -114,11 +115,19 @@ const articles = [
     author: 'Emeka Boris',
     readMore:
       'https://emekaboris.medium.com/fu-k-this-year-i-got-a-benz-f0cf68c99536',
-    when: moment(new Date('Jan 1 2021, 07:35:00')).fromNow(),
+    date: new Date('Jan 1 2021, 07:35:00'),
     entry_id: 12,
   },
 ]
 
+export const sortedArticlesByDate = articles.sort((a, b) => {
+    return b.date - a.date;
+});
+
+export const calculateFromNow = (articleDate) => {
+  return moment(articleDate).fromNow();
+}
+
 export const sortedArticles = articles.sort((a, b) => {
   b.entry_id - a.entry_id
-})
+});

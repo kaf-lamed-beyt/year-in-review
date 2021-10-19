@@ -1,7 +1,7 @@
 import React from 'react'
 import contentStyle from './scss/content.module.scss'
 import Card from '../../components/card'
-import { sortedArticles } from '../../articles'
+import { sortedArticlesByDate } from '../../articles'
 
 const Content = () => {
   return (
@@ -9,7 +9,7 @@ const Content = () => {
       <section className={contentStyle.projects} id="articles">
         <p className={contentStyle.title}>2020: Year in Review</p>
         <div className={contentStyle.cardZone}>
-          <Card data={sortedArticles} />
+          <Card data={sortedArticlesByDate} />
         </div>
       </section>
     </section>
