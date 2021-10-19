@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import cardStyle from './scss/card.module.scss'
+import { calculateFromNow } from '../../articles'
 
 const Card = ({ data }) => {
   return (
@@ -11,7 +12,7 @@ const Card = ({ data }) => {
             <div className={cardStyle.details}>
               <div className={cardStyle.latter}>
                 <p className={cardStyle.articleTitle}>{article.title}</p>
-                <span>{article.when}</span>
+                <span>{calculateFromNow(article.date)}</span>
               </div>
               <div className={cardStyle.border}></div>
               <p className={cardStyle.projBody}>{article.previewText}</p>
