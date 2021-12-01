@@ -59,13 +59,15 @@ The `entry_id` key is for us to be able to keep tabs on the amount of items we h
 
 ```javascript
   {
-    title: 'Title of the article',
-    previewText: "you can decide to make this an excerpt from the article. But, it shouldn't be greater than two sentences",
-    author: "Author's name",
-    readMore: 'link to where the article was originally published',
-    date: new Date('Oct 19 2021, 15:50:00'),
-    entry_id: 13,
+    title,
+    previewText,
+    author,
+    readMore,
+    date,
+    entry_id,
   }
 ```
+
+Since we're already wrapping up with 2021, you'll be adding articles into the `twentyOne` array. But, if you find articles that have been published previously feel free to add them in the `twenty` array (which is short for 2020).
 
 ## Happy Hacking!
