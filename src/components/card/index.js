@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import cardStyle from './scss/card.module.scss'
-import { calculateFromNow } from '../../articles'
+import { calculateFromNow } from '../../utils/helpers'
 
 const Card = ({ data }) => {
   return (

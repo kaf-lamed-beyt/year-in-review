@@ -1,7 +1,7 @@
 import React from 'react'
 import contentStyle from './scss/content.module.scss'
 import Card from '../../components/card'
-import { sortedArticlesByDate } from '../../articles'
+import { sortedArticlesByDate } from '../../utils/helpers'
 
 const Content = () => {
   return (

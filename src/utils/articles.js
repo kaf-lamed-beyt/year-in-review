@@ -1,7 +1,4 @@
-import moment from 'moment'
-
-
-const articles = [
+export const articles = [
   {
     title: 'Vince vs 2020 (the year in review)',
     previewText:
@@ -123,21 +120,8 @@ const articles = [
     previewText:
       'I’ve never written a year in review, but decided that so much happened in 2020 it was worth taking a look back and reflecting. I started at Cypress at the end of January and it has been a wild, amazing ride since then...',
     author: 'Cecelia Martinez',
-    readMore:
-      'https://dev.to/ceceliacreates/my-2020-year-in-review-aih',
+    readMore: 'https://dev.to/ceceliacreates/my-2020-year-in-review-aih',
     date: new Date('Oct 19 2021, 15:50:00'),
     entry_id: 13,
   },
 ]
-
-export const sortedArticlesByDate = articles.sort((a, b) => {
-    return b.date - a.date;
-});
-
-export const calculateFromNow = (articleDate) => {
-  return moment(articleDate).fromNow();
-}
-
-export const sortedArticles = articles.sort((a, b) => {
-  b.entry_id - a.entry_id
-});
