@@ -4,14 +4,19 @@ import '../styles/variables.scss'
 import Head from 'next/head'
 import { CssBaseline, ThemeProvider } from '@material-ui/core'
 import theme from '../src/theme'
+import { DotLoader } from 'react-spinners'
 
 function MyApp({ Component, pageProps }) {
+  const [loading, setLoading] = React.useState(false)
+
   React.useEffect(() => {
     const jssStyles = document.querySelector('#jss-server-side')
 
     if (jssStyles) {
       jssStyles.parentElement.removeChild(jssStyles)
     }
+
+    setLoading(!false)
   }, [])
 
   return (

@@ -129,13 +129,12 @@ export const twenty = [
 // Year in review articles of 2021
 export const twentyOne = [
   {
-    title: 'Vince vs 2020 (the year in review)',
+    title: 'Demo article',
     previewText:
-      'The year 2020 for me (and for everybody else on the planet I’m sure) has been one like no other, crowned with a global pandemic from a deadly virus it’s no surprise everybody that’s made it this far is nothing short of thankful for life and ready to move on, but somehow...',
-    author: 'Vincent Edeh',
-    readMore:
-      'https://dev-vince.medium.com/vince-vs-2020-the-year-in-review-6f600fd50a92',
-    date: new Date('Jan 3 2021, 13:54:00'),
+      '(and for everybody else on the planet I’m sure) has a global pandemic from a deadly virus it is nothing short of thankful for life and ready to move on, but somehow...',
+    author: 'Superb Demo Author',
+    readMore: 'https://gghh.com',
+    date: new Date('Dec 1 2021, 13:54:00'),
     entry_id: 1,
   },
 ]

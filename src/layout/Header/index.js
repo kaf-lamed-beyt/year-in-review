@@ -1,6 +1,7 @@
 import React from 'react'
 import headStyle from './scss/header.module.scss'
 import Link from 'next/link'
+import { Fade } from 'react-awesome-reveal'
 
 const Header = () => {
   return (
@@ -17,18 +18,20 @@ const Header = () => {
               href="https://github.com/Caleb335/year-in-review"
               target="__blank"
             >
-              <li>Contribute</li>
+              {/* <li>Contribute</li> */}
             </a>
           </ul>
         </div>
       </header>
       <div className={headStyle.hero}>
-        <p className={headStyle.h2}>
-          A gallery of <span>"</span>year in review<span>"</span> articles.
-        </p>
-        <div className={headStyle.illustration}>
-          <img src="/img/review.svg" alt="review illustration" />
-        </div>
+        <Fade direction="up" cascade triggerOnce>
+          <p className={headStyle.h2}>
+            A gallery of <span>"</span>year in review<span>"</span> articles.
+          </p>
+          <div className={headStyle.illustration}>
+            <img src="/img/review.svg" alt="review illustration" />
+          </div>
+        </Fade>
       </div>
     </section>
   )

@@ -45,11 +45,16 @@
   padding: 6% 5%;
   color: #fff;
 
+  // .hero_text {
+  //   border: 1px solid red;
+  //   width:
+  // }
+
   p {
     font-size: 60px;
     font-weight: 700;
     line-height: 90px;
-    width: 68%;
+    width: 120%;
     height: 300px;
     color: ghostwhite;
     margin: 180px 0 0 0;
@@ -60,8 +65,13 @@
   }
 
   .illustration {
-    height: 500px;
-    width: 780px;
+    height: 600px;
+    width: 800px;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
   }
 }
 
