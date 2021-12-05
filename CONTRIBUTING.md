@@ -37,9 +37,9 @@ Hey there, thank you for taking interest in this project. I'd list the steps you
 
 ## Adding articles
 
-The only file you'd be working with in this project is the `articles.js` file in the source folder. `src/articles.js`
+The only file you'd be working with in this project is the `articles.js` file in the utils folder. `src/utils/articles.js`
 
-In `src/articles.js` we have an array of objects called `articles`. So all you have to do now is to add your own object in the format below.
+In `src/utils/articles.js` we have an array of objects called `articles`. So all you have to do now is to add your own object in the format below.
 
 The `title` key should accept a string value that holds the title of the article.
 
