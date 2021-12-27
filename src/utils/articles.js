@@ -129,12 +129,21 @@ export const twenty = [
 // Year in review articles of 2021
 export const twentyOne = [
   {
-    title: 'Demo article',
+    title: '2021 in Review',
     previewText:
-      '(and for everybody else on the planet I’m sure) has a global pandemic from a deadly virus it is nothing short of thankful for life and ready to move on, but somehow...',
-    author: 'Superb Demo Author',
-    readMore: 'https://gghh.com',
-    date: new Date('Dec 1 2021, 13:54:00'),
+      'Looking at 2021 and all that happened this year, and one word I echo to myself is "Interesting". I started the year excited and hopeful about many things--career growth, spiritual growth, personal growth, mental-health improvement, social improvement, and more.',
+    author: 'Dillion Megida',
+    readMore: 'https://dillionmegida.com/p/2021-in-review/',
+    date: new Date('Dec 27 2021, 22:00:00'),
     entry_id: 1,
+  },
+  {
+    title: 'An Unconventional Year in an Unconventional Space',
+    previewText:
+      '2021 started big for me. Before the end of 2020, I had set out goals to achieve in 2021, a lot of them felt unrealistic and unattainable. To be honest, I’m shocked about how much I have been able to achieve.',
+    author: 'Gabby Precious',
+    readMore:
+      'https://gabbyprecious.substack.com/p/an-unconventional-year-in-an-unconventional',
+    date: new Date('Dec 27 2021, 22:01:00'),
   },
 ]
