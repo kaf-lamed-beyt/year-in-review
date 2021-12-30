@@ -146,4 +146,47 @@ export const twentyOne = [
       'https://gabbyprecious.substack.com/p/an-unconventional-year-in-an-unconventional',
     date: new Date('Dec 27 2021, 22:01:00'),
   },
+  {
+    title: 'My 2021 in Review - What a rollercoaster!',
+    previewText:
+      'Man!!!, If I am to summarize my year using one word or reaction, it would be Mannn!!! because the year had me screaming that over and over again. My biggest wins and losses both came this year. I think I would try to make this shorter than my 2020 review but lets see how this goes (I wrote a story book in that review 😂).',
+    author: 'Abdulmateen Tairu',
+    readMore:
+      'https://taycode.hashnode.dev/my-2021-in-review-what-a-rollercoaster',
+    date: new Date('Dec 30 2021, 21:53:21'),
+  },
+  {
+    title: '2021 Wrapped up',
+    previewText:
+      "Omooo If I decide to write everything that happened this year, It'll probably be a whole book. I'll brief as much as I can. 2021 wasn't my best year, I think it was more of a formation year to be honest. A year where a learnt a lot, made mistakes, pulled myself back up again and it continued that way.",
+    author: 'Daniel Umoren',
+    readMore: 'https://slimmytee.hashnode.dev/2021-wrapped-up',
+    date: new Date('Dec 30 2021, 21:55:04'),
+  },
+  {
+    title: 'MY SPACE IN 2021: THE EVOLUTION',
+    previewText:
+      'Writing this with so much emotion because I do not know where to start from. 2021? An unpredictable and pleasant year. My year of genuine growth. I must say that I started this year with no reasonable plan. Although I prayed about the year but still unsure of a lot of things. So we can say the year started on rocky grounds.',
+    author: 'Esther Olowoloba',
+    readMore:
+      'https://medium.com/@estyfrizz/my-space-in-2021-the-evolution-9426e6328f22',
+    date: new Date('Dec 30 2021, 21:57:10'),
+  },
+  {
+    title: 'Is Learning Flutter Worth it? My Year in Review.',
+    previewText:
+      "Grab a glass of juice and follow me on a ride. I'm not sure how long this is going to be but it's worth mentioning that it might be a lengthy one.",
+    author: 'Temitope Ajiboye',
+    readMore:
+      'https://tayormi.hashnode.dev/is-learning-flutter-worth-it-my-year-in-review',
+    date: new Date('Dec 30 2021, 21:58:54'),
+  },
+  {
+    title: '2021 In Review',
+    previewText:
+      'I started this year sick and in dire need of growth in multiple areas of my life like my career, my relationships with friends, family and health. I’m ending this year with major wins in my career, my personal growth, my mental and physical health and a relationship with a friend.',
+    author: 'Kaycodev',
+    readMore: 'https://kaycodev.medium.com/2021-in-review-6df3b7d56dc0',
+    date: new Date('Dec 30 2021, 22:00:52'),
+  },
 ]
