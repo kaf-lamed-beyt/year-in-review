@@ -189,4 +189,12 @@ export const twentyOne = [
     readMore: 'https://kaycodev.medium.com/2021-in-review-6df3b7d56dc0',
     date: new Date('Dec 30 2021, 22:00:52'),
   },
+  {
+    title: '2021 - Happier Than Ever',
+    previewText:
+      "It's been a long ass year, a lot has happened, a lot a lot and I'm supposed to share everything down to the tiny bits but I'm racing against time trying to finish this up before nightfall because life is a competition and I must win.",
+    author: 'Collins Enebeli',
+    readMore: 'https://kadet.dev/blog/2021-happier-than-ever',
+    date: new Date('Jan 1 2022, 16:44:35'),
+  },
 ]
