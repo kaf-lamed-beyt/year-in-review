@@ -27,17 +27,17 @@ const Content = () => {
   return (
     <section className={contentStyle.content}>
       <Search name="search" onSearch={handleChange} val={searchTerm} />
-      <section className={contentStyle.projects} id="articles">
-        <p className={contentStyle.title}>2020: Year in Review</p>
-        <div className={contentStyle.cardZone}>
-          <Card data={filteredArticle2020} />
-        </div>
-      </section>
       {/* year 2021 */}
       <section className={contentStyle.projects} id="articles">
         <p className={contentStyle.title}>2021: Year in Review</p>
         <div className={contentStyle.cardZone}>
           <Card data={filteredArticle2021} />
+        </div>
+      </section>
+      <section className={contentStyle.projects} id="articles">
+        <p className={contentStyle.title}>2020: Year in Review</p>
+        <div className={contentStyle.cardZone}>
+          <Card data={filteredArticle2020} />
         </div>
       </section>
     </section>
