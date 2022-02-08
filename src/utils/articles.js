@@ -197,4 +197,13 @@ export const twentyOne = [
     readMore: 'https://kadet.dev/blog/2021-happier-than-ever',
     date: new Date('Jan 1 2022, 16:44:35'),
   },
+  {
+    title: '2021 - Year in Review: The Good, The Bad, and The Expectations',
+    previewText:
+      "This is going to be my first ever end-of-the-year review, and I think I'm going to commit to doing it every year to serve as a tool to track my own progress on days when I start to feel like an impostor to be grateful for how far I've come.",
+    author: 'Victor Ikechukwu',
+    readMore:
+      'https://vickyikechukwu.hashnode.dev/2021-year-in-review-the-good-the-bad-and-the-expectations',
+    date: new Date('Feb 5 2022, 23:30:00'),
+  },
 ]
