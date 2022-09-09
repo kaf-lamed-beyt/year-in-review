@@ -8,16 +8,16 @@
     "start": "next start"
   },
   "dependencies": {
-    "@material-ui/core": "^4.11.2",
-    "@netlify/plugin-nextjs": "^4.1.1",
-    "moment": "^2.29.1",
-    "next": "^10.0.4",
-    "react": "17.0.1",
-    "react-awesome-reveal": "^3.8.1",
-    "react-contributors": "^1.1.1",
-    "react-dom": "17.0.1",
-    "react-icons": "^4.1.0",
-    "react-spinners": "^0.11.0",
-    "sass": "^1.32.0"
+    "@material-ui/core": "^4.12.4",
+    "@netlify/plugin-nextjs": "^4.21.2",
+    "moment": "^2.29.4",
+    "next": "^12.2.5",
+    "react": "18.2.0",
+    "react-awesome-reveal": "^4.0.1",
+    "react-contributors": "^1.1.2",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "react-spinners": "^0.13.4",
+    "sass": "^1.54.8"
   }
 }
