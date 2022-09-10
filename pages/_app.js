@@ -54,6 +54,11 @@ function MyApp({ Component, pageProps }) {
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
+        {/* search console property verification */}
+        <meta
+          name="google-site-verification"
+          content="9tZUNNHLrSXl1cdc7Bm133pWrarsSvmZI1euPVFJhic"
+        />
       </Head>
       <Component {...pageProps} />
     </React.Fragment>
