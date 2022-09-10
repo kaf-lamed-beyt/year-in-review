@@ -9,7 +9,7 @@ const Header = () => {
       <header>
         <div className={headStyle.brand}>
           <Link href="/">
-            <h3>Year in Review Gallery</h3>
+            <h3>Year Wrap</h3>
           </Link>
         </div>
         <div className={headStyle.navLinks}>
@@ -26,7 +26,7 @@ const Header = () => {
       <div className={headStyle.hero}>
         <Fade direction="up" cascade triggerOnce>
           <p className={headStyle.h2}>
-            A gallery of <span>"</span>year in review<span>"</span> articles.
+            An archive of <span>"</span>year in review<span>"</span> articles.
           </p>
           <div className={headStyle.illustration}>
             <img src="/img/review.svg" alt="review illustration" />

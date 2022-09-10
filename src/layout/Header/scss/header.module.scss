@@ -19,18 +19,21 @@
     z-index: 10;
   }
 }
+
 .brand {
   height: 35px;
+
   & h3 {
     font-weight: 300;
   }
 }
+
 .navLinks ul {
   display: flex;
   li {
-    // text-align: center;
     padding: 0 9px;
     list-style-type: none;
+
     &:hover {
       border-bottom: 1px solid $primary;
       color: $primary;
@@ -39,22 +42,18 @@
     }
   }
 }
+
 .hero {
   display: flex;
   justify-content: space-between;
   padding: 6% 5%;
   color: #fff;
 
-  // .hero_text {
-  //   border: 1px solid red;
-  //   width:
-  // }
-
   p {
     font-size: 60px;
     font-weight: 700;
     line-height: 90px;
-    width: 120%;
+    width: 150%;
     height: 300px;
     color: ghostwhite;
     margin: 180px 0 0 0;

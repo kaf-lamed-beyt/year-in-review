@@ -8,7 +8,7 @@ const Search = ({ val, onSearch, ...props }) => {
       <input
         type="text"
         value={val}
-        placeholder="Search for a question with a keyword or phrase"
+        placeholder="Search for an author i.e Dillion or Ire"
         onChange={onSearch}
         {...props}
       />

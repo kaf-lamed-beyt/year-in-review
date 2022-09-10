@@ -8,10 +8,11 @@
     "start": "next start"
   },
   "dependencies": {
-    "@material-ui/core": "^4.12.4",
+    "@emotion/react": "^11.10.4",
     "@netlify/plugin-nextjs": "^4.21.2",
     "moment": "^2.29.4",
     "next": "^12.2.5",
+    "prop-types": "^15.8.1",
     "react": "18.2.0",
     "react-awesome-reveal": "^4.0.1",
     "react-contributors": "^1.1.2",

@@ -2,52 +2,49 @@ import React from 'react'
 import '../styles/globals.scss'
 import '../styles/variables.scss'
 import Head from 'next/head'
-import { CssBaseline, ThemeProvider } from '@material-ui/core'
-import theme from '../src/theme'
-import { DotLoader } from 'react-spinners'
 
 function MyApp({ Component, pageProps }) {
-  const [loading, setLoading] = React.useState(false)
-
-  React.useEffect(() => {
-    const jssStyles = document.querySelector('#jss-server-side')
-
-    if (jssStyles) {
-      jssStyles.parentElement.removeChild(jssStyles)
-    }
-
-    setLoading(!false)
-  }, [])
-
   return (
     <React.Fragment>
       <Head>
-        <title>Awesome Year in Reviews</title>
-        <link rel="icon" type="image/ico" href="/robocon.png" />
-        <meta name="theme-color" content="rgba(225, 18, 51)" />
+        <title>year-in-review archive</title>
         <meta
           name="description"
-          content="A gallery of year-in review articles written by folks in the tech community"
+          content="An archive of year-in review articles written by folks in the tech community"
+        />
+        {/* Google's meta */}
+        <meta itemprop="name" content="year-in-review archive" />
+        <meta
+          itemprop="description"
+          content="An archive of year-in review articles written by folks in the tech community"
         />
         <meta
-          property="og:title"
-          content="Year in Review Gallery"
-          key="ogtitle"
+          itemprop="image"
+          content="https://res.cloudinary.com/meje/image/upload/v1662767894/article-covers/year-wraps_cpba4v.png"
         />
+        {/* Facebook's meta */}
+        <meta property="og:url" content="https://year-in-review.netlify.app" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="year-in-review archive" />
         <meta
           property="og:description"
-          content="A gallery of year-in review articles written by folks in the tech community"
-          key="ogdesc"
+          content="An archive of year-in review articles written by folks in the tech community"
         />
         <meta
           property="og:image"
-          content={`https://year-in-review.netlify.app/img/review.png`}
-          key="ogimage"
+          content="https://res.cloudinary.com/meje/image/upload/v1662767894/article-covers/year-wraps_cpba4v.png"
         />
+        {/* Twitter's meta */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="year-in-review archive" />
         <meta
-          property="og:site_name"
-          content="https://year-in-review.netlify.app"
-          key="ogsitename"
+          name="twitter:description"
+          content="A gallery of year-in review articles written by folks in the tech community"
+        />
+        <meta name="twitter:site" content="year-in-review.netlify.app" />
+        <meta
+          name="twitter:image"
+          content="https://res.cloudinary.com/meje/image/upload/v1662767894/article-covers/year-wraps_cpba4v.png"
         />
         <link
           href="https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu:wght@300;400;500&display=swap"
@@ -58,10 +55,7 @@ function MyApp({ Component, pageProps }) {
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
       </Head>
-      <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <Component {...pageProps} />
-      </ThemeProvider>
+      <Component {...pageProps} />
     </React.Fragment>
   )
 }

@@ -37,6 +37,10 @@ const Content = () => {
       <section className={contentStyle.projects} id="articles">
         <p className={contentStyle.title}>2020: Year in Review</p>
         <div className={contentStyle.cardZone}>
+          {/* conditionally render the search results.
+           * if the entry isn't available, notify the user
+           * via a simple text i.e "no author found"
+           */}
           <Card data={filteredArticle2020} />
         </div>
       </section>
