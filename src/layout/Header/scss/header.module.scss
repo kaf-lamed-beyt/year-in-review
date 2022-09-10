@@ -46,14 +46,14 @@
 .hero {
   display: flex;
   justify-content: space-between;
-  padding: 6% 5%;
+  padding: 6% 8%;
   color: #fff;
 
   p {
     font-size: 60px;
     font-weight: 700;
     line-height: 90px;
-    width: 150%;
+    width: 580px;
     height: 300px;
     color: ghostwhite;
     margin: 180px 0 0 0;
@@ -65,7 +65,7 @@
 
   .illustration {
     height: 600px;
-    width: 800px;
+    width: 600px;
 
     img {
       height: 100%;
@@ -78,6 +78,7 @@
   #headCont {
     height: 70%;
   }
+
   .hero {
     padding: 5% 3%;
     padding-bottom: 0;
@@ -100,17 +101,26 @@
   #headCont {
     height: 100%;
   }
+
   .hero {
     padding: 5% 3%;
 
-    & p {
-      font-size: 40px;
-      line-height: 50px;
-      width: 95%;
+    p {
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 60px;
+      width: 370px;
+      height: 300px;
     }
 
     .illustration {
-      padding: 60px 0 0 0;
+      height: 400px;
+      width: 400px;
+
+      img {
+        height: 100%;
+        width: 100%;
+      }
     }
   }
 }

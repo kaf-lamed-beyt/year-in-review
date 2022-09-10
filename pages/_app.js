@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
         />
         <meta
           itemprop="image"
-          content="https://res.cloudinary.com/meje/image/upload/v1662767894/article-covers/year-wraps_cpba4v.png"
+          content="https://res.cloudinary.com/meje/image/upload/v1662770626/article-covers/year-wraps_xi1lfw.png"
         />
         {/* Facebook's meta */}
         <meta property="og:url" content="https://year-in-review.netlify.app" />
@@ -32,19 +32,19 @@ function MyApp({ Component, pageProps }) {
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/meje/image/upload/v1662767894/article-covers/year-wraps_cpba4v.png"
+          content="https://res.cloudinary.com/meje/image/upload/v1662770626/article-covers/year-wraps_xi1lfw.png"
         />
         {/* Twitter's meta */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="year-in-review archive" />
         <meta
           name="twitter:description"
-          content="A gallery of year-in review articles written by folks in the tech community"
+          content="An archive of year-in review articles written by folks in the tech community"
         />
         <meta name="twitter:site" content="year-in-review.netlify.app" />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/meje/image/upload/v1662767894/article-covers/year-wraps_cpba4v.png"
+          content="https://res.cloudinary.com/meje/image/upload/v1662770626/article-covers/year-wraps_xi1lfw.png"
         />
         <link
           href="https://fonts.googleapis.com/css2?family=Monoton&family=Ubuntu:wght@300;400;500&display=swap"
