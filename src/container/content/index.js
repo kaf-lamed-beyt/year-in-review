@@ -1,7 +1,7 @@
 import React from 'react'
 import contentStyle from './scss/content.module.scss'
 import Card from '../../components/card'
-import { year2020, year2021 } from '../../utils/helpers'
+import { year2020, year2021, year2022 } from '../../utils/helpers'
 import Search from '../../components/Search'
 
 const Content = () => {
@@ -24,18 +24,29 @@ const Content = () => {
     return article.author.toLocaleLowerCase().includes(searchTerm)
   })
 
+  const filteredArticle2022 = year2022.filter((article) => {
+    return article.author.toLocaleLowerCase().includes(searchTerm)
+  })
+
   return (
     <section className={contentStyle.content}>
       <Search name="search" onSearch={handleChange} val={searchTerm} />
+      {/* year 2022 */}
+      <section className={contentStyle.projects} id="articles">
+        <p className={contentStyle.title}>2022 &mdash; Year in Review</p>
+        <div className={contentStyle.cardZone}>
+          <Card data={filteredArticle2022} />
+        </div>
+      </section>
       {/* year 2021 */}
       <section className={contentStyle.projects} id="articles">
-        <p className={contentStyle.title}>2021: Year in Review</p>
+        <p className={contentStyle.title}>2021 &mdash; Year in Review</p>
         <div className={contentStyle.cardZone}>
           <Card data={filteredArticle2021} />
         </div>
       </section>
       <section className={contentStyle.projects} id="articles">
-        <p className={contentStyle.title}>2020: Year in Review</p>
+        <p className={contentStyle.title}>2020 &mdash; Year in Review</p>
         <div className={contentStyle.cardZone}>
           {/* conditionally render the search results.
            * if the entry isn't available, notify the user

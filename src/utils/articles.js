@@ -207,3 +207,16 @@ export const twentyOne = [
     date: new Date('Feb 5 2022, 23:30:00'),
   },
 ]
+
+// year in review articles of 2022
+export const twentyTwo = [
+  {
+    title: 'My 2022 in retrospect',
+    previewText:
+      'I told my friend last week that this year has been my most eventful year yet. Every single month this year was eventful and exciting.',
+    author: 'Ifeoluwa Favour',
+    readMore: 'https://byife.wordpress.com/2022/12/21/my-2022-in-retrospect/',
+    date: new Date('Dec 21 2022, 14:00:00'),
+    entry_id: 1,
+  },
+]

@@ -1,5 +1,5 @@
 import moment from 'moment'
-import { twenty, twentyOne } from './articles'
+import { twenty, twentyOne, twentyTwo } from './articles'
 
 // the sort-by-date functions of all articles
 export const year2020 = twenty.sort((a, b) => {
@@ -7,6 +7,10 @@ export const year2020 = twenty.sort((a, b) => {
 })
 
 export const year2021 = twentyOne.sort((a, b) => {
+  return b.date - a.date
+})
+
+export const year2022 = twentyTwo.sort((a, b) => {
   return b.date - a.date
 })
 
