@@ -219,4 +219,13 @@ export const twentyTwo = [
     date: new Date('Dec 21 2022, 14:00:00'),
     entry_id: 1,
   },
+  {
+    title: '2022 In Review | A Reflection',
+    previewText:
+      "I don't think one word can do justice to describe this year. But two phrases I can use to describe the year are a new life and an overwhelming year.",
+    author: 'Dillion Megida',
+    readMore: 'https://dillionmegida.com/p/2022-in-review/',
+    date: new Date('Dec 22 2022, 13:40:00'),
+    entry_id: 2,
+  },
 ]
