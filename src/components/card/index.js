@@ -12,7 +12,7 @@ const Card = ({ data }) => {
             <div className={cardStyle.details}>
               <div className={cardStyle.latter}>
                 <p className={cardStyle.articleTitle}>{article.title}</p>
-                <span>{calculateFromNow(article.date)}</span>
+                <span>added {calculateFromNow(article.date)}</span>
               </div>
               <div className={cardStyle.border}></div>
               <p className={cardStyle.projBody}>{article.previewText}</p>
