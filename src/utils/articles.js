@@ -228,4 +228,43 @@ export const twentyTwo = [
     date: new Date('Dec 22 2022, 13:40:00'),
     entry_id: 2,
   },
+  {
+    title: 'A Recap of 2022: Overcoming Imposter Syndrome',
+    previewText:
+      'It’s important to remember that it’s completely normal to feel like you don’t belong at work. In fact, many people feel this way, and it doesn’t mean that there is anything wrong with you or your abilities.',
+    author: 'Anita Ihuman',
+    readMore:
+      'https://movi.hashnode.dev/a-recap-of-2022-overcoming-imposter-syndrome-8dea0028807f',
+    date: new Date('Dec 31 2022, 10:29:00'),
+    entry_id: 3,
+  },
+  {
+    title: 'My 2022 Smilestones: A Reflective Journey',
+    previewText:
+      'As 2021 was ending, one of my goals for 2022 was to further build a professional working relationship and learn more about how a professional workplace operates.',
+    author: 'Ayodele Samuel Adeboye',
+    readMore:
+      'https://unclebigbay.com/my-2022-smilestones-a-reflective-journey',
+    date: new Date('Dec 31 2022, 10:33:00'),
+    entry_id: 4,
+  },
+  {
+    title: '2022 - Veni vidi vici',
+    previewText:
+      'The year started with a lot of uncertainty for me, I’d moved back in with my folks in 2021 and was living with them for over a year, stuck at cross-roads, having no control of the situation.',
+    author: 'Edmund',
+    readMore:
+      'https://3dmund.notion.site/3dmund/2022-Veni-vidi-vici-22a5032a0a034f8aa719141e01a84303',
+    date: new Date('Dec 31 2022, 10:37:00'),
+    entry_id: 5,
+  },
+  {
+    title: '2022 in Review: Highs and Lows',
+    previewText:
+      '2022 has been a lot for me; I saw highs and lows. I wanted this Review to be organized, but I’ll write it as it comes.',
+    author: 'Ikega Ruth',
+    readMore: 'https://ruthikegah.xyz/2022-in-review-highs-and-lows',
+    date: new Date('Dec 31 2022, 10:46:00'),
+    entry_id: 6,
+  },
 ]
