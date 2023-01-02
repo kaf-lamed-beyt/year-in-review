@@ -3,13 +3,20 @@ import contentStyle from './scss/content.module.scss'
 import Card from '../../components/card'
 import { year2020, year2021, year2022 } from '../../utils/helpers'
 import Search from '../../components/Search'
+import YearsFilter from '../../components/filter'
 
 const Content = () => {
   const [searchTerm, setSearchTerm] = React.useState('')
+  const [years, setYears] = React.useState(['2022', '2021', '2020'])
+  const [selectedYear, setSelectedYear] = React.useState(null)
 
   // input handler
   const handleChange = (e) => {
     setSearchTerm(e.target.value)
+  }
+
+  const handleYears = (year) => {
+    setSelectedYear(year)
   }
 
   /**
@@ -28,32 +35,36 @@ const Content = () => {
     return article.author.toLocaleLowerCase().includes(searchTerm)
   })
 
+  let articles
+
+  if (selectedYear === '2020') {
+    articles = filteredArticle2020
+  } else if (selectedYear === '2021') {
+    articles = filteredArticle2021
+  } else if (selectedYear === '2022') {
+    articles = filteredArticle2022
+  } else {
+    articles = year2020.concat(year2021, year2022).reverse()
+  }
+
   return (
     <section className={contentStyle.content}>
-      <Search name="search" onSearch={handleChange} val={searchTerm} />
+      <div className={contentStyle.filterControls}>
+        <Search name="search" onSearch={handleChange} val={searchTerm} />
+        <YearsFilter years={years} filter={handleYears} />
+      </div>
       {/* year 2022 */}
-      <section className={contentStyle.projects} id="articles">
-        <p className={contentStyle.title}>2022 &mdash; Year in Review</p>
-        <div className={contentStyle.cardZone}>
-          <Card data={filteredArticle2022} />
-        </div>
-      </section>
-      {/* year 2021 */}
-      <section className={contentStyle.projects} id="articles">
-        <p className={contentStyle.title}>2021 &mdash; Year in Review</p>
-        <div className={contentStyle.cardZone}>
-          <Card data={filteredArticle2021} />
-        </div>
-      </section>
-      <section className={contentStyle.projects} id="articles">
-        <p className={contentStyle.title}>2020 &mdash; Year in Review</p>
-        <div className={contentStyle.cardZone}>
-          {/* conditionally render the search results.
-           * if the entry isn't available, notify the user
-           * via a simple text i.e "no author found"
-           */}
-          <Card data={filteredArticle2020} />
-        </div>
+      <section className={contentStyle.allReviews}>
+        <section className={contentStyle.projects} id="articles">
+          <p className={contentStyle.title}>
+            {selectedYear
+              ? `${selectedYear}  — Year in Review`
+              : 'All EOY reviews'}
+          </p>
+          <div className={contentStyle.cardZone}>
+            <Card data={articles} />
+          </div>
+        </section>
       </section>
     </section>
   )

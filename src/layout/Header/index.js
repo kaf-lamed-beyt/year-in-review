@@ -18,7 +18,7 @@ const Header = () => {
               href="https://github.com/Caleb335/year-in-review"
               target="__blank"
             >
-              {/* <li>Contribute</li> */}
+              <li>Contribute</li>
             </a>
           </ul>
         </div>

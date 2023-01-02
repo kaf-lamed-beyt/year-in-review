@@ -1,0 +1,36 @@
+@import 'styles/variables.scss';
+
+.container {
+  padding: 15px 0 0 0;
+
+  p {
+    font-weight: 600;
+  }
+
+  ul {
+    padding: 18px 0 0 0;
+    display: flex;
+
+    li {
+      color: $primary;
+      font-weight: bold;
+      list-style: none;
+      height: 40px;
+      width: 100%;
+      padding: 6px 7px;
+      margin: 0 6px 0 0;
+      text-align: center;
+      border-radius: 3px;
+      background: ghostwhite;
+
+      &:hover {
+        cursor: pointer;
+        background: $primary;
+        color: #fff;
+        transform: translateY(5px);
+        transform-origin: center center;
+        transition: all ease-in 0.3s;
+      }
+    }
+  }
+}

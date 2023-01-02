@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const SearchBox = styled.div`
-  height: 50px;
-  width: 650px;
+  // height: 50px;
+  // width: 350px;
   margin: 0 auto;
 
   & input {

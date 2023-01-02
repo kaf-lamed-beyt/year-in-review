@@ -4,7 +4,7 @@
   box-shadow: 3px 9px 20px rgba(0, 0, 0, 0.05);
   background: #fff;
   width: 47%;
-  margin: 0 32px 45px 0;
+  margin: 0 20px 45px 0;
 
   &:hover {
     transform: scale(1.01);
@@ -18,7 +18,7 @@
   }
 
   .articleTitle {
-    font-size: 19px;
+    font-size: 16px;
     color: $primary;
     padding: 2% 0;
   }
