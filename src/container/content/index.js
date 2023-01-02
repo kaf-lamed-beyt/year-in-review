@@ -51,12 +51,6 @@ const Content = () => {
   } else if (selectedYear === '2022') {
     articles = filteredArticle2022
   } else {
-    // let reversed2020 = year2020.reverse()
-    // let reversed2021 = year2021.reverse()
-    // let reversed2022 = year2022.reverse()
-
-    // articles = reversed2022.concat(reversed2021, reversed2020)
-
     articles = year2020.concat(year2021, year2022).reverse()
   }
 
