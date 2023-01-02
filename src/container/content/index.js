@@ -4,12 +4,16 @@ import Card from '../../components/card'
 import { year2020, year2021, year2022 } from '../../utils/helpers'
 import Search from '../../components/Search'
 import YearsFilter from '../../components/filter'
+import { useRouter } from 'next/router'
 
 const Content = () => {
+  const router = useRouter()
   const [searchTerm, setSearchTerm] = React.useState('')
   const [years, setYears] = React.useState(['2022', '2021', '2020'])
-  const [selectedYear, setSelectedYear] = React.useState(null)
-  const [activeYear, setActiveYear] = React.useState(null)
+  const [selectedYear, setSelectedYear] = React.useState(
+    router.query.year || null
+  )
+  const [activeYear, setActiveYear] = React.useState(router.query.year || null)
 
   // input handler
   const handleChange = (e) => {
@@ -19,6 +23,7 @@ const Content = () => {
   const handleYears = (year) => {
     setSelectedYear(year)
     setActiveYear(year)
+    router.push({ pathname: '/', query: { year } })
   }
 
   /**
@@ -46,6 +51,12 @@ const Content = () => {
   } else if (selectedYear === '2022') {
     articles = filteredArticle2022
   } else {
+    // let reversed2020 = year2020.reverse()
+    // let reversed2021 = year2021.reverse()
+    // let reversed2022 = year2022.reverse()
+
+    // articles = reversed2022.concat(reversed2021, reversed2020)
+
     articles = year2020.concat(year2021, year2022).reverse()
   }
 

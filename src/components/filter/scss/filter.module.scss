@@ -25,16 +25,11 @@
       padding: 6px 7px;
       margin: 0 6px 0 0;
       text-align: center;
-      border-radius: 3px;
+      border-radius: 4px;
       background: ghostwhite;
 
       &:hover {
         cursor: pointer;
-        background: $primary;
-        color: #fff;
-        transform: translateY(5px);
-        transform-origin: center center;
-        transition: all ease-in 0.3s;
       }
     }
   }
