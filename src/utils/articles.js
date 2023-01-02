@@ -124,7 +124,7 @@ export const twenty = [
     date: new Date('Oct 19 2021, 15:50:00'),
     entry_id: 13,
   },
-]
+].reverse()
 
 // Year in review articles of 2021
 export const twentyOne = [
@@ -313,5 +313,33 @@ export const twentyTwo = [
       'https://twitter.com/bleso_a/status/1608819471493529601?s=46&t=OZq77abLQuOPzx39U-lWCw&utm_campaign=Not%20the%20boring%20tech%20stuff&utm_medium=email&utm_source=Revue%20newsletter',
     date: new Date('Jan 2 2023, 11:20:00'),
     entry_id: 11,
+  },
+  {
+    title: '2022 — you evasive psycho!',
+    previewText:
+      "I've had so many experiences with failure, but this one was just too much!",
+    author: '',
+    readMore: 'https://meje.dev/blog/year-in-review-2022',
+    date: new Date('Jan 2 2023, 15:47:00'),
+    entry_id: 12,
+  },
+  {
+    title: 'On Self Awareness',
+    previewText:
+      'Self-awareness is the first step towards inner transformation. It is the ability to recognize that every thought, action, and emotion has a consequence on our well-being and the world around us. — “The Power of Now” by Eckhart Tolle',
+    author: 'Shedrack Akintayo',
+    readMore:
+      'https://medium.com/@Sheddy_Nathan/on-self-awareness-388066339fa7',
+    date: new Date('Jan 2 2023, 15:53:00'),
+    entry_id: 13,
+  },
+  {
+    title: '2022 - Blood, Sweat, and Tears',
+    previewText:
+      'I am sitting inside my home by the corner of my living room writing this. I am still determining my future, but I want to tell you about a 24-year-old platform engineer who had the roughest year and shut down his startup.',
+    author: 'Obinna Odirionye',
+    readMore: 'https://www.iamobinna.com/posts/2022-blood-sweat-and-tears/',
+    date: new Date('Jan 2 2023, 16:02:00'),
+    entry_id: 14,
   },
 ].reverse()
