@@ -206,7 +206,7 @@ export const twentyOne = [
       'https://vickyikechukwu.hashnode.dev/2021-year-in-review-the-good-the-bad-and-the-expectations',
     date: new Date('Feb 5 2022, 23:30:00'),
   },
-]
+].reverse()
 
 // year in review articles of 2022
 export const twentyTwo = [
@@ -314,4 +314,4 @@ export const twentyTwo = [
     date: new Date('Jan 2 2023, 11:20:00'),
     entry_id: 11,
   },
-]
+].reverse()

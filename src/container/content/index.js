@@ -9,6 +9,7 @@ const Content = () => {
   const [searchTerm, setSearchTerm] = React.useState('')
   const [years, setYears] = React.useState(['2022', '2021', '2020'])
   const [selectedYear, setSelectedYear] = React.useState(null)
+  const [activeYear, setActiveYear] = React.useState(null)
 
   // input handler
   const handleChange = (e) => {
@@ -17,6 +18,7 @@ const Content = () => {
 
   const handleYears = (year) => {
     setSelectedYear(year)
+    setActiveYear(year)
   }
 
   /**
@@ -51,7 +53,11 @@ const Content = () => {
     <section className={contentStyle.content}>
       <div className={contentStyle.filterControls}>
         <Search name="search" onSearch={handleChange} val={searchTerm} />
-        <YearsFilter years={years} filter={handleYears} />
+        <YearsFilter
+          years={years}
+          filter={handleYears}
+          activeYear={activeYear}
+        />
       </div>
       {/* year 2022 */}
       <section className={contentStyle.allReviews}>
