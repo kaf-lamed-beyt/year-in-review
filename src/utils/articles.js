@@ -267,4 +267,51 @@ export const twentyTwo = [
     date: new Date('Dec 31 2022, 10:46:00'),
     entry_id: 6,
   },
+  {
+    title: 'Season 2022',
+    previewText:
+      'As is an annual ritual for me, I start each new year with written goals, of what I want to accomplish in the year. So in January this year, I got started with my first quarter goals until I couldn’t. I became sick, I WAS PREGNANT!',
+    author: 'Amarachi Johnson-Ubah',
+    readMore: 'https://amarachi-johnson.medium.com/season-2022-afbe436d274f',
+    date: new Date('Jan 2 2023, 11:00:00'),
+    entry_id: 7,
+  },
+  {
+    title: "2022, you've tried, come and be going",
+    previewText:
+      'I don’t know. What I do know is I’ve been postponing writing this piece because like delayed ejaculation, the words won’t just come.',
+    author: 'Senilore',
+    readMore:
+      'https://senilore8.medium.com/2022-youve-tried-come-and-be-going-c39364b0aad3',
+    date: new Date('Jan 2 2023, 11:05:00'),
+    entry_id: 8,
+  },
+  {
+    title: 'DevRetro2022 - Into The Unknown',
+    previewText:
+      'Unfortunately, roughly immediately after the year started, I faced the biggest shock of my life; every teaching staff in my school had decided to go on strike. A strike?!',
+    author: 'Abolade Ilerioluwakiiye',
+    readMore: 'https://ilerioluwakiiye.hashnode.dev/devretro2022',
+    date: new Date('Jan 2 2023, 11:08:00'),
+    entry_id: 9,
+  },
+  {
+    title: 'How It All Started - #DevRetro2022',
+    previewText:
+      '2022 was the year I took learning web development seriously. It has been a very rough journey with many challenges and a couple of achievements. Here is a short retrospect of the highlights of my journey as a developer in 2022.',
+    author: 'Paul Sage',
+    readMore:
+      'https://saje.hashnode.dev/dev-retro-2022?utm_campaign=Not%20the%20boring%20tech%20stuff&utm_medium=email&utm_source=Revue%20newsletter',
+    date: new Date('Jan 2 2023, 11:15:00'),
+    entry_id: 10,
+  },
+  {
+    title: '2022 was wild',
+    previewText: 'Got Dubai Residency Visa',
+    author: 'Blessing',
+    readMore:
+      'https://twitter.com/bleso_a/status/1608819471493529601?s=46&t=OZq77abLQuOPzx39U-lWCw&utm_campaign=Not%20the%20boring%20tech%20stuff&utm_medium=email&utm_source=Revue%20newsletter',
+    date: new Date('Jan 2 2023, 11:20:00'),
+    entry_id: 11,
+  },
 ]
