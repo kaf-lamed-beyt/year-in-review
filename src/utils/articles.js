@@ -352,4 +352,12 @@ export const twentyTwo = [
     date: new Date('Jan 8 2023, 04:02:00'),
     entry_id: 15,
   },
+  {
+    title: 'Learn from my Experience',
+    previewText: 'SOME OF THE LESSON I LEARNT IN 2022',
+    author: 'Anne Ananwune',
+    readMore: 'https://www.linkedin.com/feed/update/urn:li:activity:7011630935729172480?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7011630935729172480%29',
+    date: new Date('Jan 11 2023, 05:00:00'),
+    entry_id: 16
+  }
 ].reverse()
