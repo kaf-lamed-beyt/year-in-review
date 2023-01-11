@@ -352,4 +352,12 @@ export const twentyTwo = [
     date: new Date('Jan 8 2023, 04:02:00'),
     entry_id: 15,
   },
+  {
+    title: 'demo article',
+    previewText: 'tESTINF GAHAJAHB ',
+    author: 'Agba merger...',
+    readMore: 'https://github.com/kaf-lamed-beyt',
+    date: new Date('Jan 11 2023, 20:22:00'),
+    entry_id: 16,
+  },
 ].reverse()
