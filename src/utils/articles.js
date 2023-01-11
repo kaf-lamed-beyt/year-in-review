@@ -352,4 +352,13 @@ export const twentyTwo = [
     date: new Date('Jan 8 2023, 04:02:00'),
     entry_id: 15,
   },
+  {
+    title: 'See ya, 2022',
+    previewText:
+      'Man, 2022 was a year of extreme highs and lows, probably the most extreme I’ve had… ever.',
+    author: 'Cassidy Williams',
+    readMore: 'https://blog.cassidoo.co/post/see-ya-2022/',
+    date: new Date('Jan 10 2023, 23:02:00'),
+    entry_id: 16,
+  },
 ].reverse()
