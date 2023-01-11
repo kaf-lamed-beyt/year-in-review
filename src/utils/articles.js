@@ -352,4 +352,12 @@ export const twentyTwo = [
     date: new Date('Jan 8 2023, 04:02:00'),
     entry_id: 15,
   },
+  {
+    title: '2022 - Vite and Typescript',
+    previewText: "Vite is a modern build tool for web applications that is designed to be fast, lightweight, and flexible. It was created to make it easier for developers to build and develop web applications quickly and efficiently",
+    author: 'Akinpelu Abiodun Matthew',
+    readMore: "https://medium.com/@matthabbey/vite-and-typescript-b78e3fe121d4",
+    date: new Date('Jan 11 2023, 11:00:01'),
+    entry_id: 16
+  }
 ].reverse()
