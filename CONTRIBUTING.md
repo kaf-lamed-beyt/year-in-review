@@ -43,7 +43,7 @@ In `src/utils/articles.js` we have an array of objects called `articles`. So all
 
 The `title` key should accept a string value that holds the title of the article.
 
-The `previewText` key should accept a string that shows probabaly an introduction from the article. You can decide to make this an excerpt from the article. But, it shouldn't be greater than two sentences.
+The `previewText` key should accept a string that shows probably an introduction from the article. You can decide to make this an excerpt from the article. But, it shouldn't be greater than two sentences.
 
 The `author` key should accept the name of the author.
 
@@ -68,6 +68,6 @@ The `entry_id` key is for us to be able to keep tabs on the amount of items we h
   }
 ```
 
-Since we're already wrapping up with 2021, you'll be adding articles into the `twentyOne` array. But, if you find articles that have been published previously feel free to add them in the `twenty` array (which is short for 2020).
+Since we've already wrapped up with 2022, you'll be adding articles into the `twentyTwo` array. But, if you find articles that have been published previously feel free to add them in the `twenty` OR `twentyOne`array (which is short for 2020 or 2021).
 
 ## Happy Hacking!

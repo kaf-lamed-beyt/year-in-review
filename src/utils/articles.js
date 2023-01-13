@@ -343,12 +343,22 @@ export const twentyTwo = [
     entry_id: 14,
   },
   {
+    title: '2022 Unwrapped: The Year of Eye opening',
+    previewText:
+      "Whew! What a year!Supposedly should have written this article way before the new year started, but I just could not bring myself to do so, and then I was trying to think of the perfect title to use. Now that we are here, Let's go on a little trip down memory lane on how the year went. Shall we?",
+    author: 'Daniel Umoren',
+    readMore:
+      'https://danielumoren.hashnode.dev/2022-unwrapped-the-year-of-eye-opening',
+    date: new Date('Jan 8 2023, 04:02:00'),
+    entry_id: 15,
+  },
+    {
     title: '2022 - The year generalist',
     previewText:
       'I know  said that WAGMI in the last year but folks, lemme catch my breath',
     author: 'Cynthia Peter',
     readMore: 'https://medium.com/@iamcynthiapeter/2022-the-year-of-the-generalist-76908e7691ad',
     date: new Date('Jan 11 2023, 11:17:00'),
-    entry_id: 15,
+    entry_id: 16,
   },
 ].reverse()
