@@ -359,5 +359,5 @@ export const twentyTwo = [
     readMore: "https://www.linkedin.com/feed/update/urn:li:activity:7016449014288007168?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7016449014288007168%29",
     date: new Date("Jan 14 2023, 00:42:15"),
     entry_id: 16
-  }
+  },
 ].reverse()
