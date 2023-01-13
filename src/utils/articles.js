@@ -342,4 +342,12 @@ export const twentyTwo = [
     date: new Date('Jan 2 2023, 16:02:00'),
     entry_id: 14,
   },
+  {
+    title: 'Year-in-review: My Experience in Famasi Africa',
+    previewText: "Hi there! My name is Dipo and I’m a designer. The next question on your mind might be, “Well, what kind of designer are you?” That’s expected, let me explain.",
+    author: 'Oladipupo Ayoola',
+    readMore: 'https://medium.com/@the_poe/year-in-review-my-experience-in-famasi-africa-f7f33bf46cc9',
+    date: new Date('Jan 13 2023, 12:18:00'),
+    entry_id: 15,
+  },
 ].reverse()
