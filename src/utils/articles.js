@@ -350,4 +350,41 @@ export const twentyTwo = [
     date: new Date('Jan 13 2023, 12:18:00'),
     entry_id: 15,
   },
+    title: '2022 Unwrapped: The Year of Eye opening',
+    previewText:
+      "Whew! What a year!Supposedly should have written this article way before the new year started, but I just could not bring myself to do so, and then I was trying to think of the perfect title to use. Now that we are here, Let's go on a little trip down memory lane on how the year went. Shall we?",
+    author: 'Daniel Umoren',
+    readMore:
+      'https://danielumoren.hashnode.dev/2022-unwrapped-the-year-of-eye-opening',
+    date: new Date('Jan 8 2023, 04:02:00'),
+    entry_id: 16,
+  },
+  {
+    title: 'See ya, 2022',
+    previewText:
+      'Man, 2022 was a year of extreme highs and lows, probably the most extreme I’ve had… ever.',
+    author: 'Cassidy Williams',
+    readMore: 'https://blog.cassidoo.co/post/see-ya-2022/',
+    date: new Date('Jan 10 2023, 23:02:00'),
+    entry_id: 17,
+  },
+  {
+    title: '2022 - The year generalist',
+    previewText:
+      'I know  said that WAGMI in the last year but folks, lemme catch my breath',
+    author: 'Cynthia Peter',
+    readMore:
+      'https://medium.com/@iamcynthiapeter/2022-the-year-of-the-generalist-76908e7691ad',
+    date: new Date('Jan 11 2023, 11:17:00'),
+    entry_id: 18,
+  },
+  {
+    title: '2022 - Year in Review',
+    previewText:
+      "A front-row seat to my thoughts during the Fireworks show on New Year's! Enjoy!!!",
+    author: 'Harith Onigemo',
+    readMore: 'https://dev.to/harithmetic1/2022-year-in-review-1f3',
+    date: new Date('Jan 14 2023, 12:51:00'),
+    entry_id: 19,
+  },
 ].reverse()
