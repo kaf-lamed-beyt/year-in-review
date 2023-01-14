@@ -352,4 +352,12 @@ export const twentyTwo = [
     date: new Date('Jan 8 2023, 04:02:00'),
     entry_id: 15,
   },
+  {
+    title: "My 2022 end of the year List",
+    previewText: "I always look forward to sharing my lists of favorite books, movies, and music with all of you.",
+    author: "Barack Obama",
+    readMore: "https://medium.com/p/ba76b6278801",
+    date: new Date('Jan 14 2023, 00:54:56', ),
+    entry_id: 17,
+  }
 ].reverse()
