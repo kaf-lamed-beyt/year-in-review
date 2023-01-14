@@ -343,6 +343,13 @@ export const twentyTwo = [
     entry_id: 14,
   },
   {
+    title: 'Year-in-review: My Experience in Famasi Africa',
+    previewText: "Hi there! My name is Dipo and I’m a designer. The next question on your mind might be, “Well, what kind of designer are you?” That’s expected, let me explain.",
+    author: 'Oladipupo Ayoola',
+    readMore: 'https://medium.com/@the_poe/year-in-review-my-experience-in-famasi-africa-f7f33bf46cc9',
+    date: new Date('Jan 13 2023, 12:18:00'),
+    entry_id: 15,
+  },
     title: '2022 Unwrapped: The Year of Eye opening',
     previewText:
       "Whew! What a year!Supposedly should have written this article way before the new year started, but I just could not bring myself to do so, and then I was trying to think of the perfect title to use. Now that we are here, Let's go on a little trip down memory lane on how the year went. Shall we?",
@@ -350,7 +357,7 @@ export const twentyTwo = [
     readMore:
       'https://danielumoren.hashnode.dev/2022-unwrapped-the-year-of-eye-opening',
     date: new Date('Jan 8 2023, 04:02:00'),
-    entry_id: 15,
+    entry_id: 16,
   },
   {
     title: 'See ya, 2022',
@@ -359,7 +366,7 @@ export const twentyTwo = [
     author: 'Cassidy Williams',
     readMore: 'https://blog.cassidoo.co/post/see-ya-2022/',
     date: new Date('Jan 10 2023, 23:02:00'),
-    entry_id: 16,
+    entry_id: 17,
   },
   {
     title: '2022 - The year generalist',
@@ -369,7 +376,7 @@ export const twentyTwo = [
     readMore:
       'https://medium.com/@iamcynthiapeter/2022-the-year-of-the-generalist-76908e7691ad',
     date: new Date('Jan 11 2023, 11:17:00'),
-    entry_id: 17,
+    entry_id: 18,
   },
   {
     title: '2022 - Year in Review',
@@ -378,6 +385,6 @@ export const twentyTwo = [
     author: 'Harith Onigemo',
     readMore: 'https://dev.to/harithmetic1/2022-year-in-review-1f3',
     date: new Date('Jan 14 2023, 12:51:00'),
-    entry_id: 18,
+    entry_id: 19,
   },
 ].reverse()
