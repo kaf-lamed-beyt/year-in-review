@@ -361,4 +361,14 @@ export const twentyTwo = [
     date: new Date('Jan 10 2023, 23:02:00'),
     entry_id: 16,
   },
+  {
+    title: '2022 - The year generalist',
+    previewText:
+      'I know  said that WAGMI in the last year but folks, lemme catch my breath',
+    author: 'Cynthia Peter',
+    readMore:
+      'https://medium.com/@iamcynthiapeter/2022-the-year-of-the-generalist-76908e7691ad',
+    date: new Date('Jan 11 2023, 11:17:00'),
+    entry_id: 17,
+  },
 ].reverse()
