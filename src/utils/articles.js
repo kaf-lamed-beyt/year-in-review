@@ -344,13 +344,16 @@ export const twentyTwo = [
   },
   {
     title: 'Year-in-review: My Experience in Famasi Africa',
-    previewText: "Hi there! My name is Dipo and I’m a designer. The next question on your mind might be, “Well, what kind of designer are you?” That’s expected, let me explain.",
+    previewText:
+      'Hi there! My name is Dipo and I’m a designer. The next question on your mind might be, “Well, what kind of designer are you?” That’s expected, let me explain.',
     author: 'Oladipupo Ayoola',
-    readMore: 'https://medium.com/@the_poe/year-in-review-my-experience-in-famasi-africa-f7f33bf46cc9',
+    readMore:
+      'https://medium.com/@the_poe/year-in-review-my-experience-in-famasi-africa-f7f33bf46cc9',
     date: new Date('Jan 13 2023, 12:18:00'),
     entry_id: 15,
   },
-    title: '2022 Unwrapped: The Year of Eye opening',
+  {
+    title: '2022 Unwrapped The Year of Eye opening',
     previewText:
       "Whew! What a year!Supposedly should have written this article way before the new year started, but I just could not bring myself to do so, and then I was trying to think of the perfect title to use. Now that we are here, Let's go on a little trip down memory lane on how the year went. Shall we?",
     author: 'Daniel Umoren',
@@ -386,13 +389,5 @@ export const twentyTwo = [
     readMore: 'https://dev.to/harithmetic1/2022-year-in-review-1f3',
     date: new Date('Jan 14 2023, 12:51:00'),
     entry_id: 19,
-  },
-  {
-    title: "2022 - Not Planning To Share",
-    previewText: "I should not share this with anyone",
-    author: "Cynthia Peter",
-    readMore: "https://www.linkedin.com/feed/update/urn:li:activity:7016449014288007168?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7016449014288007168%29",
-    date: new Date("Jan 14 2023, 00:42:15"),
-    entry_id: 16
   },
 ].reverse()
