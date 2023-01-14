@@ -361,4 +361,13 @@ export const twentyTwo = [
     date: new Date('Jan 10 2023, 23:02:00'),
     entry_id: 16,
   },
+  {
+    title: '2022 - Year in Review',
+    previewText:
+      "A front-row seat to my thoughts during the Fireworks show on New Year's! Enjoy!!!",
+    author: 'Harith Onigemo',
+    readMore: 'https://dev.to/harithmetic1/2022-year-in-review-1f3',
+    date: new Date('Jan 14 2023, 12:51:00'),
+    entry_id: 17,
+  },
 ].reverse()
