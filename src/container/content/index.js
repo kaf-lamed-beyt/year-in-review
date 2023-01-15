@@ -55,7 +55,8 @@ const Content = () => {
   }
 
   return (
-    <section className={contentStyle.content}>
+    <div className={contentStyle.content}>
+    <div className={contentStyle.contentControl}>
       <div className={contentStyle.filterControls}>
         <Search name="search" onSearch={handleChange} val={searchTerm} />
         <YearsFilter
@@ -64,7 +65,9 @@ const Content = () => {
           activeYear={activeYear}
         />
       </div>
+    </div>
       {/* year 2022 */}
+    <div className={contentStyle.filterSearch}>
       <section className={contentStyle.allReviews}>
         <section className={contentStyle.projects} id="articles">
           <p className={contentStyle.title}>
@@ -77,7 +80,8 @@ const Content = () => {
           </div>
         </section>
       </section>
-    </section>
+      </div>
+      </div>
   )
 }
 
