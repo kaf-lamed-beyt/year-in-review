@@ -21,7 +21,13 @@ Hey there, thank you for taking interest in this project. I'd list the steps you
     git checkout -b Hannah
 ```
 
-- Save and commit your changes
+- Before you commit or make any changes, make sure you pull from the main repository which you have set as the upstream repository, so you can always have the latest version of the project. This is to avoid any issue of merge conflict in the future, for the maintainers of this project.
+
+```bash
+git pull upstream master
+```
+
+- Save and commit your change
 
 ```bash
     git add --all
