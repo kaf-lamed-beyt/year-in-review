@@ -352,4 +352,20 @@ export const twentyTwo = [
     date: new Date('Jan 8 2023, 04:02:00'),
     entry_id: 15,
   },
+  {
+    title: "This is not aspire to inspire",
+    previewText: "I’ve always wanted to do the 100 Days Of Code challenge for a long time, because I see it as an opportunity to stay consistent at improving my programming skills but for one reason or another, I always default on my goals.",
+    author: "Damilare Ololade",
+    readMore: "https://www.linkedin.com/posts/damilareololade_20daylinkedinchallengewithhaoma-tracklearnings-activity-7019491551206649856-gwcK?utm_source=share&utm_medium=member_desktop",
+    date: new Date("Jan 15 2023, 02:14:08"),
+    entry_id: 16,
+  },
+  {
+    title: "A boisterous 2022 it was but a stronger me here breaking new grounds.",
+    previewText: "I have the pleasure of sharing this interesting project with you i embarked on in the last week of 2022! Just like my friend who asked #ChatGPT #AI to compose a new year complementary message for him, i also decided to do something awesome on the topic i.e build this modern website with stunning UI/UX about ChatGPT.",
+    author: "Olagunju Isaac",
+    readMore: "https://www.linkedin.com/posts/isaacolagunju_chatgpt-ai-reactjs-activity-7015303335599607808-WjFd?utm_source=share&utm_medium=member_desktop",
+    date: new Date("Jan 15 2023, 02:14:08"),
+    entry_id: 17,
+  }
 ].reverse()
