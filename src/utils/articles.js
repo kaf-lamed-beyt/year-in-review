@@ -390,4 +390,12 @@ export const twentyTwo = [
     date: new Date('Jan 14 2023, 12:51:00'),
     entry_id: 19,
   },
+  {
+    title: 'Why a month late? Because I can',
+    previewText: 'I wrote this as year in review piece for 2022 at the end of last year and although it did not feel right to publish at the point, I woke up this morning with a longing to put it out there. So here goes:',
+    author: 'Salim Oyinlola',
+    readMore: 'https://medium.com/p/57851aba4317',
+    date: new Date('Jan 30 2023, 08:24:00'),
+    entry_id: 20,
+  }
 ].reverse()
