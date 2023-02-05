@@ -23,7 +23,10 @@ const Content = () => {
   const handleYears = (year) => {
     setSelectedYear(year)
     setActiveYear(year)
-    router.push({ pathname: '/', query: { year } })
+    router.push({
+      pathname: "/",
+      query: { ...router.query, year: year },
+    }, undefined, { scroll: false });
   }
 
   /**
