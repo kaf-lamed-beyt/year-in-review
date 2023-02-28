@@ -392,10 +392,21 @@ export const twentyTwo = [
   },
   {
     title: 'Why a month late? Because I can',
-    previewText: 'I wrote this as year in review piece for 2022 at the end of last year and although it did not feel right to publish at the point, I woke up this morning with a longing to put it out there. So here goes:',
+    previewText:
+      'I wrote this as year in review piece for 2022 at the end of last year and although it did not feel right to publish at the point, I woke up this morning with a longing to put it out there. So here goes:',
     author: 'Salim Oyinlola',
-    readMore: 'https://salimoyinlola.medium.com/why-a-month-late-because-i-can-57851aba4317',
+    readMore:
+      'https://salimoyinlola.medium.com/why-a-month-late-because-i-can-57851aba4317',
     date: new Date('Jan 30 2023, 08:24:00'),
     entry_id: 20,
+  },
+  {
+    title: 'My 2022 Year in Review: Stepping into Growth',
+    previewText:
+      'My personal reflections for 2022. TL;DR: This was a year of personal growth. I didn’t plan how long this review would turn out, because 2022 was eventful. I do hope it turns out to be worthwhile',
+    author: 'Victor Ikechukwu',
+    readMore:
+      'https://vickyikechukwu.hashnode.dev/my-2022-year-in-review-stepping-into-growth',
+    date: new Date('Feb 27 2023, 23:05:00'),
   },
 ].reverse()
