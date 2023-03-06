@@ -409,4 +409,11 @@ export const twentyTwo = [
       'https://vickyikechukwu.hashnode.dev/my-2022-year-in-review-stepping-into-growth',
     date: new Date('Feb 27 2023, 23:05:00'),
   },
+  {
+    title: 'The Growth: 2022',
+    previewText: '2022 started on a very rough note, had a lot of rejection mail, backlocks, got my first job and learned some lesson about softskills needed as a software frontend engineer. I wrote this article share the amazing experience I had, I hope it turns out to be very helpful',
+    author: 'Nnamdi Clement',
+    readMore: 'https://medium.com/@iamclement/2022-lessons-losses-life-da330d75642a',
+    date: new Date('March 6 2023, 1:34:00'),
+  }
 ].reverse()
